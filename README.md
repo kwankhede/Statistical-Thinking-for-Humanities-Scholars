@@ -7,7 +7,7 @@ Welcome to the **Statistical Thinking for Humanities Scholars and Introduction t
 ## 📘 Course Overview
 
 - **Course Title**: Statistical Thinking for Humanities Scholars and Introduction to Statistics for All of You  
-- **Target Audience**: High School Students (Grades 9–12)  
+- **Target Audience**: Humanities Scholars 
 - **Duration**: One Semester (12–16 weeks)  
 - **Prerequisites**: Basic algebra (e.g., solving equations, working with fractions and percentages)
 
