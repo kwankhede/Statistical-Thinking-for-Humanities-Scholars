@@ -136,3 +136,11 @@ Without context and interpretation, numbers are meaningless.
 
 ---
 
+## 📚 Homework/Practice
+
+1. Interview 5 people and collect:
+   - Age, gender, and favorite local food
+2. Classify the data: Qualitative or Quantitative? Discrete or Continuous?
+
+---
+
