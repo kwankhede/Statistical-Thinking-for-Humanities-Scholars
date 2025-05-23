@@ -1,6 +1,6 @@
 # 📊 Chapter 1: Introduction to Statistics
 
-Welcome to **Chapter 1** of the *Statistical Thinking for Humanities Scholars * course! This Chapter, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life.
+Welcome to **Chapter 1** of the **Statistical Thinking for Humanities Scholars** course! This Chapter, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life.
 
 ---
 
