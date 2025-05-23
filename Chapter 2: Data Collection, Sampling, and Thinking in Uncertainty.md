@@ -93,7 +93,6 @@ More flips → closer to 0.5
    - Does more data give a clearer picture?
    - 
 
-
 ## 🎮 Try It Yourself: Probability Simulation Web App
 
 Want to visualize coin flips, dice rolls, or probability distributions?
@@ -111,9 +110,6 @@ Want to visualize coin flips, dice rolls, or probability distributions?
 5. Discuss what the outcome means for real-life events like weather prediction or exam results.
 
 > This is a great way to explore **Frequentist probability** and understand **random variation** through simulations!
-
-
-
 
 ---
 
@@ -192,3 +188,37 @@ Marks of 5 students: 45, 55, 60, 40, 50
 → Learn how to model random events and draw conclusions from data!
 
 ---
+
+### 🎯 Additional Key Concepts from the PDF
+
+#### 📊 Probability Distribution Functions (PDFs)
+- **Discrete PDF**: Assigns probabilities to each outcome in a finite set (e.g., coin toss: \( p(H) = 0.5 \), \( p(T) = 0.5 \)).
+- **Continuous PDF**: Used for continuous variables (requires calculus, not covered here).
+
+#### 🔄 Independent vs. Conditional Probabilities
+- **Independent Events**: \( p(x, y) = p(x)p(y) \) (e.g., rolling two dice).
+- **Conditional Probabilities**: \( p(x, y) = p(x|y)p(y) \) (e.g., drawing cards without replacement).
+
+#### 📉 Central Limit Theorem
+- For a large number of trials, the distribution of sample means tends to a **Normal (Gaussian) distribution**, regardless of the original distribution.
+
+#### 🔍 Statistical Inference
+- **Maximum Likelihood Estimation**: Finding the parameter value (e.g., \( \theta \)) that maximizes the likelihood of observed data.
+- **Bayes Theorem**: \( p(x|y) = \frac{p(y|x)p(x)}{p(y)} \). Used to update probabilities based on new evidence.
+
+---
+
+### 🧩 Example: Maximum Likelihood Estimation
+- **Scenario**: Flip a coin 8 times, get 6 heads and 2 tails.
+- **Likelihood Function**: \( \mathcal{L}(\theta) = \theta^6 (1-\theta)^2 \).
+- **Maximizing \( \mathcal{L}(\theta) \)**: Gives \( \theta_{\text{max}} = 0.75 \), suggesting the coin might be biased.
+
+---
+
+### 📝 Exercise
+1. **Coin Flips**: Perform 10 coin flips, record heads/tails, and compute \( \theta_{\text{max}} \).
+2. **Dice Rolls**: Roll a die 20 times, calculate the empirical probabilities for each outcome, and compare to the theoretical \( \frac{1}{6} \).
+
+---
+
+This chapter integrates foundational statistical concepts with practical applications, ensuring a deep understanding of data collection, probability, and inference. The next chapter will build on these ideas to explore probability distributions and advanced inference techniques.
