@@ -9,7 +9,7 @@ Welcome to **Week 1** of the *Statistical Thinking for Humanities Scholars * cou
 **Statistics** is the science of:
 - Collecting
 - Organizing
-- Analyzing
+- Analyzing  (Finding pattern) 
 - Interpreting data
 
 We use it to **make decisions**, **solve problems**, and **understand trends** in various fields.
