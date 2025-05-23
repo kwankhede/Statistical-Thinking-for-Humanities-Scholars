@@ -25,6 +25,7 @@ This chapter dives into **probability distributions**, **hypothesis testing**, a
 2. Plot histograms and match to distributions
 3. Discuss: Which distribution fits best? Why?
 
+
 ---
 
 ## 📉 Section 2: The Normal Distribution in Depth
