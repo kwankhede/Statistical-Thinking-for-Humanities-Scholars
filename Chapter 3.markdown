@@ -1,7 +1,6 @@
 # 📊 Chapter 3.1: Probability Distributions
 
 Welcome to **Chapter 3.1** of *Statistical Thinking for Humanities Scholars*!  
-This chapter, inspired by the Nalanda Academy Workshop (17-19 May 2025) by Subodh Patil and Kapil Wankhede, introduces **probability distributions**, with a special focus on the **Normal Distribution**. Designed for humanities scholars, we use intuitive explanations, local Indian examples, and minimal mathematics (Std. X level) to explore how distributions help us understand data in fields like history, sociology, and cultural studies. Let’s dive into the world of probabilities!
 
 ---
 
