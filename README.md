@@ -2,7 +2,7 @@
 
 ###  Nalanda Academy, Wardha 
 
-Welcome to the **Statistical Thinking for Humanities Scholars and Introduction to Statistics for All of You** course!  
+Welcome to the **Statistical Thinking for Humanities Scholars and Introduction to Statistics for All** course!  
 This page contains the updated syllabus, reorganized into chapters for clarity and effective learning.
 
 ---
