@@ -214,10 +214,3 @@ A **statistical question** looks for patterns or variation:
 3. Write a short paragraph on how one of your **priors** has changed over time due to evidence or experience.
 
 ---
-
-## 🧭 Coming Up Next Chapter
-
-📋 **Chapter 2: Data Collection and Sampling**  
-→ Learn how to design good surveys and avoid biased conclusions!
-
----
