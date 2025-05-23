@@ -1,18 +1,6 @@
 # 📊 Week 1: Introduction to Statistics
 
-Welcome to **Week 1** of the *Statistical Thinking for Humanities Scholars and Introduction to Statistics for All of You* course! This week, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life — especially with examples from our region, **Vidarbha (Maharashtra)**.
-
----
-
-## 🎯 Learning Objectives
-
-By the end of this week, you will be able to:
-
-- Define **statistics** and its two main branches.
-- Explain the importance of statistics in everyday life.
-- Classify data as **qualitative** or **quantitative**.
-- Differentiate between **discrete** and **continuous** quantitative data.
-- Relate statistics to real-life examples from the **Vidarbha region**.
+Welcome to **Week 1** of the *Statistical Thinking for Humanities Scholars * course! This week, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life.
 
 ---
 
@@ -25,6 +13,8 @@ By the end of this week, you will be able to:
 - Interpreting data
 
 We use it to **make decisions**, **solve problems**, and **understand trends** in various fields.
+
+**Example :** A farmer in Wardha collects data on rainfall and cotton yield each year. By summarizing this data, they can decide the best month to sow seeds and which crop variety gives better yield
 
 ---
 
@@ -74,32 +64,6 @@ We use it to **make decisions**, **solve problems**, and **understand trends** i
 
 ---
 
-## 🧠 Classroom Activities
-
-### ✅ Activity 1: Statistics Around Us
-- Bring a local newspaper article (e.g., Lokmat, Sakal).
-- Identify data types: descriptive or inferential?
-- Discuss how the data helps us make decisions.
-
-### ✅ Activity 2: Classroom Survey
-- Collect data from classmates:
-  - Favorite subject
-  - Number of siblings
-  - Commute time to school
-- Categorize each: qualitative/quantitative, discrete/continuous.
-
-### ✅ Activity 3: Sorting Cards (Vidarbha Examples)
-Create index cards with the following:
-- “Height of a student from Amravati”
-- “Type of irrigation in a Wardha farm”
-- “Number of mobile towers in Chandrapur”
-- “Air pollution level in Nagpur in December”
-
-Students classify each as:
-- Qualitative or Quantitative?
-- If quantitative: Discrete or Continuous?
-
----
 
 ## 💡 Think & Reflect
 
@@ -121,23 +85,6 @@ Students classify each as:
 
 ---
 
-## 📚 Optional Exploration
-
-- Watch a local weather report and write down:
-  - Max/min temperature
-  - Rainfall predictions
-- Browse the Maharashtra state education department website and find data on your district.
-
----
-
-## 📌 Homework
-
-1. Interview 5 people in your village or town:
-   - Ask their age, favorite food, and number of siblings.
-   - Classify the data.
-2. Make a simple table of the results.
-
----
 
 ## 🧭 Coming Up Next Week:
 
