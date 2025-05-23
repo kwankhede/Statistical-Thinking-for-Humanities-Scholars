@@ -101,7 +101,7 @@ Want to visualize coin flips, dice rolls, or probability distributions?
 👉 **Open this interactive app:**  
 🔗 [Probability Applet – BFW Stats](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)
 
-![Preview of the Applet](https://user-images.githubusercontent.com/1038959/270370447-e51f93dc-cc91-4c4a-9356-f5b9ffb21e4d.png)
+![Preview of the Applet](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/chapter2.1.png)
 
 ### 📌 Instructions
 1. Click the link above to open the app.
