@@ -155,15 +155,3 @@ P(COVID|+) = (0.95*0.02)/[(0.95*0.02)+(0.03*0.98)] ≈ 39.2%
 
 ---
 
-### 💡 Pro Tip: Always Ask These Questions
-1. What's the population vs sample?
-2. Which distribution fits my data?
-3. Am I testing or estimating?
-4. What are the practical implications?
-
----
-
-*"Statistics are like bikinis. What they reveal is suggestive, but what they conceal is vital."*  
-– Aaron Levenstein  
-
-[🔼 Back to Top](#)
