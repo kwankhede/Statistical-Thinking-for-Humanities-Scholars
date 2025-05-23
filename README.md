@@ -30,9 +30,9 @@ By the end of the course, students will be able to:
 
 ---
 
-## 📅 Weekly Syllabus
+## 📅 Chapterly Syllabus
 
-| **Week** | **Topics** | **Activities** | **Outcomes** |
+| **Chapter** | **Topics** | **Activities** | **Outcomes** |
 |---------|------------|----------------|--------------|
 | **1** | Introduction to Statistics<br>- Descriptive vs. inferential<br>- Importance in real life<br>- Types of data | - Discuss statistics in media<br>- Classify classroom data | - Define statistics<br>- Distinguish types of data |
 | **2** | Data Collection and Sampling<br>- Populations vs. samples<br>- Sampling methods<br>- Bias in collection | - Conduct a class survey<br>- Identify bias in examples | - Differentiate population/sample<br>- Identify sources of bias |
