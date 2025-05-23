@@ -1,5 +1,11 @@
 ---
 title: Statistical Thinking for Humanities Scholars
+theme: minima
+---
+
+
+---
+title: Statistical Thinking for Humanities Scholars
 ---
 
 # 📘 Statistical Thinking for Humanities Scholars
