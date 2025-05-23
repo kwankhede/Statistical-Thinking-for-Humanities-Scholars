@@ -13,7 +13,7 @@ This page contains the updated syllabus, reorganized into chapters for clarity a
 - **Tools**: Google Sheets
 
 **Description**:  
-This course introduces students to statistical thinking by engaging them in real-life data collection, analysis, and decision-making. Students will explore key concepts through community-based projects, hands-on activities, and critical discussions.
+This course introduces students to statistical thinking by engaging them in real-life data collection, analysis, and decision-making. Students will explore key concepts through projectsand critical discussions.
 
 ---
 
