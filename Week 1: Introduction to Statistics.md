@@ -5,6 +5,35 @@ This chapter begins your journey into the world of statistics — a vital tool f
 
 ---
 
+## 🧠 Everyday Statistical Thinking: Priors, Bias & Instinct
+
+Before we even get into technical concepts, it's important to understand:  
+**You already reason statistically — every day.**
+
+- “This street seems unsafe — I won’t walk here.”
+- “That person looks suspicious.”
+- “People like him always behave that way.”
+
+These instincts may feel natural, but they are often shaped by **priors** — past experiences, learned biases, media, and societal conditioning.
+
+### 🖼️ Classroom Prompt: Who Looks Like a Criminal?
+
+![Who looks like a criminal?](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/chapter1.1.png)
+
+> **Ask your students:**  
+> “Which of these two individuals looks more like they have a criminal record?”  
+> “Why do you think so?”  
+> “Are you judging based on facts or instinct?”
+
+⚠️ **Important Note**: Neither individual in this image has a criminal record. This is a thought experiment to uncover our unconscious biases.
+
+This exercise introduces:
+- How **data and images** affect our thinking.
+- The importance of **evidence over assumption**.
+- The role of **critical thinking and statistical reasoning** in challenging our priors.
+
+---
+
 ## 🔍 What is Statistics?
 
 **Statistics** is the science (and art) of:
@@ -119,6 +148,7 @@ Without context and interpretation, numbers are meaningless.
 - Why should a farmer or a teacher learn statistics?
 - What kinds of data do you encounter daily in your community?
 - What makes a number meaningful? (Hint: Confidence + Context)
+- Can your **priors** be wrong? How would you know?
 
 ---
 
@@ -132,6 +162,7 @@ Without context and interpretation, numbers are meaningless.
 | **Qualitative Data**      | Descriptive, category-based                      |
 | **Quantitative Data**     | Numerical, can be discrete or continuous         |
 | **Data Cleaning**         | Removing noise and errors from raw data          |
+| **Priors**                | Prejudgments formed from past experience         |
 | **Statistical Question**  | Seeks trends or distributions                    |
 
 ---
@@ -141,6 +172,6 @@ Without context and interpretation, numbers are meaningless.
 1. Interview 5 people and collect:
    - Age, gender, and favorite local food
 2. Classify the data: Qualitative or Quantitative? Discrete or Continuous?
+3. Think of one **assumption** you have — where did it come from? Is it backed by evidence?
 
 ---
-
