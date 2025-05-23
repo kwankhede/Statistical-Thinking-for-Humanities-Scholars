@@ -91,6 +91,28 @@ More flips → closer to 0.5
 4. Discuss:
    - How stable is the outcome?
    - Does more data give a clearer picture?
+   - 
+
+
+## 🎮 Try It Yourself: Probability Simulation Web App
+
+Want to visualize coin flips, dice rolls, or probability distributions?
+
+👉 **Open this interactive app:**  
+🔗 [Probability Applet – BFW Stats](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)
+
+![Preview of the Applet](https://user-images.githubusercontent.com/1038959/270370447-e51f93dc-cc91-4c4a-9356-f5b9ffb21e4d.png)
+
+### 📌 Instructions
+1. Click the link above to open the app.
+2. Choose a simulation (e.g., coin flips, dice rolls).
+3. Run it with different sample sizes (10, 50, 100).
+4. Observe the shape of the distribution and how it stabilizes.
+5. Discuss what the outcome means for real-life events like weather prediction or exam results.
+
+> This is a great way to explore **Frequentist probability** and understand **random variation** through simulations!
+
+
 
 ---
 
