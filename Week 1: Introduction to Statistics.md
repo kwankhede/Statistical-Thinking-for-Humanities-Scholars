@@ -45,7 +45,7 @@ In reality, most situations fall on a **spectrum** — not into boxes.
 
 ### 📊 Visual Explanation
 
-![False Dichotomy vs. Spectrum]([https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Spectrum_vs_Binary.svg/1280px-Spectrum_vs_Binary.svg.png](https://ozchen.com/wp-content/uploads/2018/02/binary-spectrum-thinking2.png])  
+![False Dichotomy vs. Spectrum]([https://ozchen.com/wp-content/uploads/2018/02/binary-spectrum-thinking2.png])  
 
 
 ---
