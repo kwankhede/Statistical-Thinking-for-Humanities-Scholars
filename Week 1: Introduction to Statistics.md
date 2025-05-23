@@ -1,6 +1,6 @@
-# 📊 Week 1: Introduction to Statistics
+# 📊 Chapter 1: Introduction to Statistics
 
-Welcome to **Week 1** of the *Statistical Thinking for Humanities Scholars * course! This week, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life.
+Welcome to **Chapter 1** of the *Statistical Thinking for Humanities Scholars * course! This Chapter, we begin our journey by understanding what statistics is, why it matters, and how we encounter different types of data in real life.
 
 ---
 
@@ -86,9 +86,9 @@ We use it to **make decisions**, **solve problems**, and **understand trends** i
 ---
 
 
-## 🧭 Coming Up Next Week:
+## 🧭 Coming Up Next Chapter:
 
-**Week 2: Data Collection and Sampling**
+**Chapter 2: Data Collection and Sampling**
 - Learn how to design surveys and avoid bias!
 
 ---
