@@ -133,413 +133,146 @@ A **frequency table** summarizes data by showing the number of times each item o
 <br>
 <br>
 
+Here's your **revised and enriched version** of the 📐 *Measures of Center and Spread* section — with **nothing removed**, all your original content intact, and now better formatted, more structured, and even clearer for student understanding:
+
+---
+
 ## 📐 Measures of Center and Spread
 
-In this section, we focus on how to **summarize data numerically** using measures of central tendency and spread, and how to watch out for **outliers** and **misleading graphs**.
+In this section, we focus on how to **summarize data numerically** using measures of **central tendency** and **spread**, and how to be cautious of **outliers** and **misleading graphs**.
+
+---
 
 ### 🧠 Measures of Center
 
 These describe a “typical” or “central” value in a dataset:
 
-- **Mean**: The arithmetic average  
-  \[
+* **Mean**: The arithmetic average
+
+  $$
   \text{Mean} = \frac{\text{Sum of all values}}{\text{Number of values}}
-  \]
-- **Median**: The middle value when data is sorted
-- **Mode**: The most frequently occurring value
+  $$
+
+* **Median**: The middle value when data is sorted
+
+* **Mode**: The most frequently occurring value
 
 > 📌 *Local Example:* In a group of farmers, if most own 2 acres, a few own 20+ acres, the **mean** might be high, but **median** shows the typical farmer.
+
+#### ✅ Detailed Examples
+
+* **Mean Example:**
+  Land sizes: 2, 2, 3, 2, 30
+
+  $$
+  \text{Mean} = \frac{2+2+3+2+30}{5} = \frac{39}{5} = 7.8
+  $$
+
+* **Median Example:**
+  Sorted values: 2, 2, 2, 3, 30
+
+  $$
+  \text{Median} = 2
+  $$
+
+* **Mode Example:**
+  Values: 2, 2, 3, 3, 3, 4
+
+  $$
+  \text{Mode} = 3
+  $$
 
 ---
 
 ### 🚨 Outliers and Their Effects
 
-An **outlier** is a data point that is far from others.
+An **outlier** is a data point that is far removed from others.
 
-- Outliers **increase the mean** but may not affect the **median**.
-- They can **mislead conclusions**, especially in small datasets.
+* Outliers can **inflate or deflate the mean**
+* Outliers **rarely affect the median**
+* Can **mislead conclusions**, especially in small datasets
 
-> **Example:** Farmer land sizes: 2, 2, 3, 2, 30 acres  
-> - Mean = 7.8 (seems high)  
-> - Median = 2 (more accurate reflection of most farmers)
+> **Example:** Land sizes in a village:
+> 2, 2, 3, 2, 30 acres
+>
+> * **Mean** = 7.8 (skewed by the outlier)
+> * **Median** = 2 (more reliable for typical case)
 
 ---
 
 ### 📊 Measures of Spread
 
-These tell us how much variation or "spread" exists in the data.
+These tell us how **varied or consistent** the values in a dataset are.
 
-- **Range**: Difference between max and min values  
-- **IQR (Interquartile Range)**: Middle 50% spread (Q3 - Q1)  
-- **Standard Deviation**: Average distance from the mean (see formula below)
+#### ✅ 1. **Range**
 
-> 📌 *Wardha Example:*  
-> Measuring daily temperature across 7 days – small SD means consistent weather; large SD means fluctuation.
+$$
+\text{Range} = \text{Max} - \text{Min}
+$$
+
+**Example:**
+Marks: 35, 40, 45, 60, 85
+
+$$
+\text{Range} = 85 - 35 = 50
+$$
+
+---
+
+#### ✅ 2. **Interquartile Range (IQR)**
+
+$$
+\text{IQR} = Q_3 - Q_1
+$$
+
+* **Q1** = 25th percentile
+* **Q3** = 75th percentile
+  IQR shows the range of the **middle 50%** of the data and **reduces the influence of outliers**.
+
+> Example: Marks of 20 students — IQR helps detect how consistent the middle students are.
+
+---
+
+#### ✅ 3. **Standard Deviation (SD)**
+
+$$
+\text{SD} = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+$$
+
+* **Low SD** = values close to mean → more consistent
+* **High SD** = values spread out → more variability
+
+> 📌 *Wardha Example:*
+> Daily temperatures across 7 days:
+>
+> * If SD is low: temperature is stable
+> * If SD is high: weather is fluctuating
 
 ---
 
 ### 🚫 Misleading Graphs and Visual Tricks
 
-Not all graphs are trustworthy! Be alert to:
+Some graphs are designed to **confuse** or **manipulate** viewers.
 
-- **Axes manipulation**: Starting y-axis at a high number to exaggerate small differences
-- **Pie chart distortion**: Using 3D or tilt to mislead proportion
-- **Cherry-picking data**: Showing only certain years or values
+| Trick                    | Why It’s Misleading           |
+| ------------------------ | ----------------------------- |
+| **Truncated y-axis**     | Exaggerates small differences |
+| **3D/tilted pie charts** | Distorts proportions          |
+| **Cherry-picking data**  | Hides or exaggerates trends   |
 
-> **Example:** A sugar company graph only shows 2023–2024 prices to hide long-term increase.
-
----
-
-
-
-# 📘 Core Statistical Concepts
-
-This document introduces three important concepts in introductory statistics:
-
-- Frequentist View of Probability  
-- Estimators and Bias  
-- Sample Variance
+> 📌 *Example:* A sugar company shows only 2023–2024 prices to **hide a 5-year price rise** trend.
 
 ---
 
-## 🎲 Frequentist View of Probability
+### 🧾 Summary Table: Measures of Center and Spread
 
-The **Frequentist** interpretation of probability defines probability as the **long-run relative frequency** of an event occurring, based on repeated trials.
-
-### 🔹 Key Ideas:
-- Probability is the limit of relative frequency as the number of trials goes to infinity.
-- It does **not** involve personal belief or prior knowledge.
-- Example: If you flip a fair coin many times, the proportion of heads approaches 0.5.
-
-> **Example:**  
-> If you roll a die 600 times and the number 3 appears 100 times,  
-> the frequentist probability of rolling a 3 is:  
->  
-> \[
-> P(3) = \frac{100}{600} = 0.1667
-> \]
+| Measure                | What It Tells Us                | When It’s Most Useful                           |
+| ---------------------- | ------------------------------- | ----------------------------------------------- |
+| **Mean**               | Average of all data values      | Data is symmetric, no extreme values            |
+| **Median**             | Middle value in sorted data     | Skewed data or when outliers are present        |
+| **Mode**               | Most frequently occurring value | Categorical or modal analysis (e.g., vote mode) |
+| **Range**              | Total spread in data            | Quick check for variation                       |
+| **IQR**                | Spread of middle 50% of data    | More reliable than range when outliers exist    |
+| **Standard Deviation** | Average distance from the mean  | Need for precision and detecting consistency    |
 
 ---
-
-## 📐 Estimators and Bias
-
-An **estimator** is a rule or formula used to estimate an unknown population parameter from a sample.
-
-### 🔹 Example:
-- Sample mean \(\bar{x}\) estimates population mean \(\mu\).
-- Sample proportion \(\hat{p}\) estimates population proportion \(p\).
-
-### 🧭 Bias of an Estimator:
-- **Bias** is the **difference between the expected value of the estimator and the true population parameter**.
-
-\[
-\text{Bias}(\hat{\theta}) = \mathbb{E}[\hat{\theta}] - \theta
-\]
-
-- An estimator is **unbiased** if:  
-  \[
-  \mathbb{E}[\hat{\theta}] = \theta
-  \]
-
-> **Example:**  
-> The sample mean is an **unbiased** estimator of the population mean.
-
-
-
-## 📊 Sample Variance
-
-The **sample variance** measures the spread of data points around the sample mean.
-
-### 🔹 Formula:
-
-\[
-s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
-\]
-
-### 🔍 Why divide by \(n - 1\)?
-- This correction is called **Bessel's correction**.
-- It makes the sample variance an **unbiased estimator** of the population variance.
-
-### 🔹 Example:
-
-Data: 3, 7, 7, 19  
-Sample Mean: \(\bar{x} = 9\)
-
-\[
-s^2 = \frac{(3 - 9)^2 + (7 - 9)^2 + (7 - 9)^2 + (19 - 9)^2}{4 - 1}
-= \frac{36 + 4 + 4 + 100}{3} = \frac{144}{3} = 48
-\]
-
-
-
-## ✅ Summary Table
-
-| Concept                  | Key Idea                                                                 |
-|--------------------------|--------------------------------------------------------------------------|
-| Frequentist Probability  | Probability as long-run frequency                                        |
-| Estimator                | A rule/formula to estimate a population parameter                        |
-| Bias                     | Difference between expected estimator value and true parameter           |
-| Sample Variance          | Average squared deviation from mean (with correction for unbiasedness)  |
-
-
-## 🎲 Section 2: Estimation and Thinking in Uncertainty
-
-### 🎯 Key Terms
-
-- **Estimator**: A method to guess a number (e.g., average height).
-- **Bias (statistical)**: When your guess consistently misses in one direction.
-- **Variance**: How spread out your data is.
-- **Standard Deviation**: Average distance from the mean.
-
----
-
-### 🧪 Real-Life Examples
-
-| Concept           | Local Example                                                    |
-|------------------|------------------------------------------------------------------|
-| Estimation        | Estimate average rainfall in Buldhana from past 5 years          |
-| Variance          | Variation in marks of 10th students in Amravati schools          |
-| Standard Deviation| Compare weight of 20 cabbages grown in a Wardha farm             |
-
----
-
-### 🧠 Frequentist View of Probability
-
-> Probability is defined as the **long-run frequency** of an outcome.
-
-#### ⚖️ Example:
-Flip a coin 100 times:
-- Get 47 heads, 53 tails → Probability ≈ 0.47 and 0.53
-
-More flips → closer to 0.5
-
----
-
-### 🧪 Classroom Activity: Coin Toss Simulation
-
-1. Flip a coin 10, 50, and 100 times.
-2. Record number of heads and tails.
-3. Plot the results on a bar chart.
-4. Discuss:
-   - How stable is the outcome?
-   - Does more data give a clearer picture?
-   - 
-
-## 🎮 Try It Yourself: Probability Simulation Web App
-
-Want to visualize coin flips, dice rolls, or probability distributions?
-
-👉 **Open this interactive app:**  
-🔗 [Probability Applet – BFW Stats](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)
-
-![Preview of the Applet](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)
-
-### 📌 Instructions
-1. Click the link above to open the app.
-2. Choose a simulation (e.g., coin flips, dice rolls).
-3. Run it with different sample sizes (10, 50, 100).
-4. Observe the shape of the distribution and how it stabilizes.
-5. Discuss what the outcome means for real-life events like weather prediction or exam results.
-
-> This is a great way to explore **Frequentist probability** and understand **random variation** through simulations!
-
----
-
-## 📉 Section 3: Sample Mean and Standard Deviation
-
-### 🧠 Definitions
-
-- **Mean (average)**: Add all values, divide by number.
-- **Sample Variance**: Average of squared deviations from the mean.
-- **Standard Deviation**: Square root of variance.
-
-### 📊 Example:
-Marks of 5 students: 45, 55, 60, 40, 50  
-- Mean = 50  
-- Variance = average of (x - 50)²  
-- SD = √variance
-
----
-
-## 📈 Section 4: Local Applications
-
-### 🌧️ Rainfall in Vidarbha
-
-- Collect rainfall data from 5 villages in Chandrapur.
-- Calculate average and SD.
-- Compare year to year: Is rainfall stable?
-
-### 🧑🏽‍🌾 Agricultural Yields
-
-- Estimate average soybean yield in Akola per acre.
-- Sample 10 farms.
-- Calculate mean and discuss variation.
-
----
-
-## 💬 Think & Reflect
-
-- Why can’t we study every person in Wardha? Why do we sample?
-- How can bad sampling lead to bad decisions?
-- What does it mean if your SD is high?
-
----
-
-## 📚 Summary Table
-
-| Term                  | Meaning                                                    |
-|------------------------|------------------------------------------------------------|
-| **Population**         | Entire group (e.g., all households in a village)           |
-| **Sample**             | A subset used for analysis                                 |
-| **Sampling Bias**      | Sample doesn't reflect the full population                 |
-| **Estimator**          | Rule to estimate a population value                        |
-| **Mean**               | Average                                                    |
-| **Variance**           | Measure of spread                                          |
-| **Standard Deviation** | Typical distance from the mean                             |
-| **Frequentist Probability** | Chance as a long-run frequency                      |
-
----
-
-Here's a detailed explanation of the **📐 Measures of Center and Spread** section and how it has been structured for clarity, depth, and student understanding:
-
----
-
-## 🧠 **Measures of Center**
-
-These help us understand the "typical" or "central" value in a dataset.
-
-### 1. **Mean** (Arithmetic Average)
-
-The mean is calculated by adding all the values and dividing by how many values there are.
-
-$$
-\text{Mean} = \frac{\text{Sum of all values}}{\text{Number of values}}
-$$
-
-**Example:**
-Farmland owned (in acres): 2, 2, 3, 2, 30
-
-$$
-\text{Mean} = \frac{2 + 2 + 3 + 2 + 30}{5} = \frac{39}{5} = 7.8 \text{ acres}
-$$
-
-This **looks high** because of the outlier (30 acres).
-
----
-
-### 2. **Median** (Middle Value)
-
-The value that lies exactly in the middle when data is sorted.
-
-**Same example:** 2, 2, 2, 3, 30
-
-$$
-\text{Median} = 2
-$$
-
-→ The **median** tells us more about the *typical farmer* than the mean in this case.
-
----
-
-### 3. **Mode** (Most Frequent Value)
-
-The value that appears most often.
-
-**Example:** 2, 2, 3, 3, 3, 4, 5
-
-$$
-\text{Mode} = 3
-$$
-
----
-
-## 🚨 **Outliers and Their Effects**
-
-An **outlier** is a data point that is very different from the rest.
-It can distort results:
-
-* Skews the **mean** (makes it look higher or lower)
-* **Does not affect the median** as much
-* Can **mislead decisions** if not understood
-
----
-
-## 📊 **Measures of Spread**
-
-These show **how spread out** or **how consistent** the data is.
-
-### 1. **Range**
-
-$$
-\text{Range} = \text{Maximum} - \text{Minimum}
-$$
-
-**Example:** 10, 12, 15, 18, 20 → Range = 20 - 10 = 10
-
----
-
-### 2. **IQR (Interquartile Range)**
-
-This is the range of the middle 50% of the data:
-
-$$
-\text{IQR} = Q3 - Q1
-$$
-
-* Q1 = First Quartile (25th percentile)
-* Q3 = Third Quartile (75th percentile)
-
-→ IQR helps detect **consistency** in the middle portion and identify outliers.
-
----
-
-### 3. **Standard Deviation (SD)**
-
-It tells us how far, **on average**, values are from the **mean**.
-
-$$
-\text{SD} = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
-$$
-
-📌 *Interpretation*:
-
-* **Low SD**: Values are close to the mean (e.g., daily temperature in Nagpur during summer).
-* **High SD**: Values are spread out (e.g., exam marks in a diverse class).
-
----
-
-## 🚫 **Misleading Graphs and Tricks**
-
-These are visual tactics that can distort the message:
-
-| Trick                  | Problem                       |
-| ---------------------- | ----------------------------- |
-| **Truncated y-axis**   | Exaggerates small differences |
-| **3D Pie Charts**      | Makes proportions confusing   |
-| **Cherry-picked data** | Hides or distorts trends      |
-
-**Example:** Showing prices from only 2023–2024 may **hide long-term inflation**.
-
----
-
-## ✅ Summary
-
-| Measure            | Describes                       | Useful When...                            |
-| ------------------ | ------------------------------- | ----------------------------------------- |
-| Mean               | Average                         | Data is symmetric, no outliers            |
-| Median             | Middle value                    | Data has outliers or is skewed            |
-| Mode               | Most common value               | Interested in frequency                   |
-| Range              | Spread from smallest to largest | Quick estimate of variability             |
-| IQR                | Spread of the middle 50%        | Want robust measure that ignores extremes |
-| Standard Deviation | Avg. distance from the mean     | Need precise sense of spread around mean  |
-
----
-
-Let me know if you'd like **practice questions**, **local Vidarbha examples**, or **charts/graphs** added to this section!
-
-
-
-
-## 🚀 **Next Chapter: Probability Distributions & Inference!**  
-- Learn to model randomness and draw conclusions from data.  
-
