@@ -12,6 +12,7 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 - **Population**: The entire group you want to study (e.g., all farmers in Wardha).
 - **Sample**: A smaller group selected from the population (e.g., 100 farmers).
 - **Goal**: Use the sample to say something meaningful about the population.
+- 
 
 <br>
 
