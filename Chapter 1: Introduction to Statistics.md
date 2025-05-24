@@ -378,3 +378,7 @@ Before analysis, data often needs:
 | **Survey Bias**            | A flaw that causes misrepresentation in data        |
 
 ---
+
+[Next chapter: Chapter 2 – Data Collection, Sampling, and Thinking in Uncertainty](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/Chapter%202:%20Data%20Collection%2C%20Sampling%2C%20and%20Thinking%20in%20Uncertainty.md)
+
+
