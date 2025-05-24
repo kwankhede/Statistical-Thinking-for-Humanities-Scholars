@@ -18,7 +18,7 @@ These instincts may feel natural, but they are often shaped by **priors** — pa
 
 ### 🖼️ Classroom Prompt: Who Looks Like a Criminal?
 
-![Who looks like a criminal?](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/chapter1.1.png)
+![Who looks like a criminal?](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter1.1.pn)
 
 > **Ask your students:**  
 > “Which of these two individuals looks more like they have a criminal record?”  
