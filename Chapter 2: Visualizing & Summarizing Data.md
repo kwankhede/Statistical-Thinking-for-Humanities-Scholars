@@ -3,7 +3,7 @@
 Welcome to **Chapter 2** of the *Statistical Thinking for Humanities Scholars* course!  
 In this chapter, we explore how to **collect data properly**, understand **samples and populations**, avoid **bias**, and start thinking about **uncertainty and probability**.
 
----
+<br>
 
 ## 🧪 Section 1: Data Collection and Sampling
 
@@ -13,7 +13,7 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 - **Sample**: A smaller group selected from the population (e.g., 100 farmers).
 - **Goal**: Use the sample to say something meaningful about the population.
 
----
+<br>
 
 ### 📦 Types of Sampling Methods
 
@@ -24,7 +24,7 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 | **Systematic**         | Every 10th name on a school attendance list             | Sample every 5th voter on a list           |
 | **Convenience Sampling**| Easy-to-access people (⚠️ often biased)               | Asking only students nearby or online      |
 
----
+<br>
 
 ### 🚨 What Is Bias?
 
@@ -35,30 +35,16 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 - Surveying students only from English-medium schools.
 - Ignoring remote tribal villages in Melghat in health data.
 
----
 
-### 🧑‍🏫 Activity: Conduct a Class Survey
+<br>
 
-1. Ask every student about:
-   - Hours of sleep
-   - Favorite local food
-2. Compare results across gender or locality.
-3. Discuss:
-   - What population does your sample represent?
-   - What kind of sampling method did you use?
-   - Is there bias?
+## Frequency Tables and Types of Graphs
 
----
-
-
-
-# Frequency Tables and Types of Graphs
-
-## 📊 Overview
+### 📊 Overview
 
 This module introduces how to organize data using **frequency tables** and how to represent that data visually using **bar graphs**, **pie charts**, and **histograms**.
 
----
+<br>
 
 ## 📋 1. Frequency Tables
 
@@ -77,7 +63,7 @@ A **frequency table** summarizes data by showing the number of times each item o
 - **Class intervals**: Grouped ranges (e.g., 0–2, 3–5)
 - **Frequency**: How often each class occurs
 
----
+<br>
 
 ## 📊 2. Bar Graphs
 
@@ -91,8 +77,8 @@ A **frequency table** summarizes data by showing the number of times each item o
 ### 🔹 Example:
 
 ![Insert bar chart image here](https://i.pinimg.com/564x/30/bd/4b/30bd4bd9e3af57b6d3982b802bf33c95.jpg)
+<br>
 
----
 
 ## 🥧 3. Pie Charts
 
@@ -101,12 +87,12 @@ A **frequency table** summarizes data by showing the number of times each item o
 ### 🔹 Features:
 - Best for **categorical data**
 - Each slice represents a percentage
-
+<br>
 ### 🔹 Example:
 
 ![Insert pie chart image here](https://www.blog.matchub.net/wp-content/uploads/2019/07/export-India.png)
 
----
+<br>
 
 ## 📉 4. Histograms
 
@@ -116,12 +102,13 @@ A **frequency table** summarizes data by showing the number of times each item o
 - Bars **touch each other**
 - Represents **intervals** on x-axis
 - Useful for **grouped frequency data**
+<br>
 
-### 🔹 Example:
 
-![Insert histogram image here](https://www.researchgate.net/publication/43627836/figure/fig9/AS:341541332766731@1458441207913/ndia-Cloth-production-by-sector-1990-2004-Billion-meters.png)
 
----
+![Insert histogram image here](https://www.w3schools.com/statistics/img_histogram.svg)
+
+<br>
 
 ## ✅ Summary
 
@@ -131,13 +118,167 @@ A **frequency table** summarizes data by showing the number of times each item o
 | Pie Chart     | Categorical data      | Good for part-whole view   |
 | Histogram     | Continuous/grouped data | Bars touch; shows intervals |
 
-
+<br>
 
 ## 📚 Further Reading & Tools
 
 - [Khan Academy – Bar graphs and histograms](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data)
 - [Desmos Graphing Calculator](https://www.desmos.com/)
 - [ChartGo Graph Maker](https://www.chartgo.com/)
+
+
+
+<br>
+<br>
+<br>
+
+## 📐 Measures of Center and Spread
+
+In this section, we focus on how to **summarize data numerically** using measures of central tendency and spread, and how to watch out for **outliers** and **misleading graphs**.
+
+### 🧠 Measures of Center
+
+These describe a “typical” or “central” value in a dataset:
+
+- **Mean**: The arithmetic average  
+  \[
+  \text{Mean} = \frac{\text{Sum of all values}}{\text{Number of values}}
+  \]
+- **Median**: The middle value when data is sorted
+- **Mode**: The most frequently occurring value
+
+> 📌 *Local Example:* In a group of farmers, if most own 2 acres, a few own 20+ acres, the **mean** might be high, but **median** shows the typical farmer.
+
+---
+
+### 🚨 Outliers and Their Effects
+
+An **outlier** is a data point that is far from others.
+
+- Outliers **increase the mean** but may not affect the **median**.
+- They can **mislead conclusions**, especially in small datasets.
+
+> **Example:** Farmer land sizes: 2, 2, 3, 2, 30 acres  
+> - Mean = 7.8 (seems high)  
+> - Median = 2 (more accurate reflection of most farmers)
+
+---
+
+### 📊 Measures of Spread
+
+These tell us how much variation or "spread" exists in the data.
+
+- **Range**: Difference between max and min values  
+- **IQR (Interquartile Range)**: Middle 50% spread (Q3 - Q1)  
+- **Standard Deviation**: Average distance from the mean (see formula below)
+
+> 📌 *Wardha Example:*  
+> Measuring daily temperature across 7 days – small SD means consistent weather; large SD means fluctuation.
+
+---
+
+### 🚫 Misleading Graphs and Visual Tricks
+
+Not all graphs are trustworthy! Be alert to:
+
+- **Axes manipulation**: Starting y-axis at a high number to exaggerate small differences
+- **Pie chart distortion**: Using 3D or tilt to mislead proportion
+- **Cherry-picking data**: Showing only certain years or values
+
+> **Example:** A sugar company graph only shows 2023–2024 prices to hide long-term increase.
+
+---
+
+
+
+# 📘 Core Statistical Concepts
+
+This document introduces three important concepts in introductory statistics:
+
+- Frequentist View of Probability  
+- Estimators and Bias  
+- Sample Variance
+
+---
+
+## 🎲 Frequentist View of Probability
+
+The **Frequentist** interpretation of probability defines probability as the **long-run relative frequency** of an event occurring, based on repeated trials.
+
+### 🔹 Key Ideas:
+- Probability is the limit of relative frequency as the number of trials goes to infinity.
+- It does **not** involve personal belief or prior knowledge.
+- Example: If you flip a fair coin many times, the proportion of heads approaches 0.5.
+
+> **Example:**  
+> If you roll a die 600 times and the number 3 appears 100 times,  
+> the frequentist probability of rolling a 3 is:  
+>  
+> \[
+> P(3) = \frac{100}{600} = 0.1667
+> \]
+
+---
+
+## 📐 Estimators and Bias
+
+An **estimator** is a rule or formula used to estimate an unknown population parameter from a sample.
+
+### 🔹 Example:
+- Sample mean \(\bar{x}\) estimates population mean \(\mu\).
+- Sample proportion \(\hat{p}\) estimates population proportion \(p\).
+
+### 🧭 Bias of an Estimator:
+- **Bias** is the **difference between the expected value of the estimator and the true population parameter**.
+
+\[
+\text{Bias}(\hat{\theta}) = \mathbb{E}[\hat{\theta}] - \theta
+\]
+
+- An estimator is **unbiased** if:  
+  \[
+  \mathbb{E}[\hat{\theta}] = \theta
+  \]
+
+> **Example:**  
+> The sample mean is an **unbiased** estimator of the population mean.
+
+
+
+## 📊 Sample Variance
+
+The **sample variance** measures the spread of data points around the sample mean.
+
+### 🔹 Formula:
+
+\[
+s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+\]
+
+### 🔍 Why divide by \(n - 1\)?
+- This correction is called **Bessel's correction**.
+- It makes the sample variance an **unbiased estimator** of the population variance.
+
+### 🔹 Example:
+
+Data: 3, 7, 7, 19  
+Sample Mean: \(\bar{x} = 9\)
+
+\[
+s^2 = \frac{(3 - 9)^2 + (7 - 9)^2 + (7 - 9)^2 + (19 - 9)^2}{4 - 1}
+= \frac{36 + 4 + 4 + 100}{3} = \frac{144}{3} = 48
+\]
+
+
+
+## ✅ Summary Table
+
+| Concept                  | Key Idea                                                                 |
+|--------------------------|--------------------------------------------------------------------------|
+| Frequentist Probability  | Probability as long-run frequency                                        |
+| Estimator                | A rule/formula to estimate a population parameter                        |
+| Bias                     | Difference between expected estimator value and true parameter           |
+| Sample Variance          | Average squared deviation from mean (with correction for unbiasedness)  |
 
 
 ## 🎲 Section 2: Estimation and Thinking in Uncertainty
@@ -190,7 +331,7 @@ Want to visualize coin flips, dice rolls, or probability distributions?
 👉 **Open this interactive app:**  
 🔗 [Probability Applet – BFW Stats](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)
 
-![Preview of the Applet](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/chapter2.1.png)
+![Preview of the Applet](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)
 
 ### 📌 Instructions
 1. Click the link above to open the app.
@@ -278,3 +419,212 @@ Marks of 5 students: 45, 55, 60, 40, 50
 → Learn how to model random events and draw conclusions from data!
 
 ---
+
+
+
+
+Here’s an improved version of your document with better organization, visual hierarchy, and readability—**without removing any information**. I've refined the structure, added emphasis, and polished the formatting for clarity and engagement.  
+
+---
+
+# 📋 **Chapter 2: Data Collection, Sampling, and Thinking in Uncertainty**  
+
+Welcome to **Chapter 2** of *Statistical Thinking for Humanities Scholars*!  
+In this chapter, we’ll explore:  
+✅ **How to collect data properly**  
+✅ **Samples vs. populations**  
+✅ **Avoiding bias**  
+✅ **Uncertainty and probability**  
+
+---
+
+## 🧪 **Section 1: Data Collection and Sampling**  
+
+### 🎯 **Key Ideas**  
+- **Population**: The *entire group* you want to study (e.g., all farmers in Wardha).  
+- **Sample**: A *smaller subset* of the population (e.g., 100 farmers).  
+- **Goal**: Use the sample to make *meaningful conclusions* about the population.  
+
+---
+
+### 📊 **Types of Sampling Methods**  
+
+| **Method**              | **Description**                                      | **Local Example**                          |
+|-------------------------|-----------------------------------------------------|--------------------------------------------|
+| **Simple Random**       | Every member has an equal chance.                   | Randomly pick 50 students from a 10th-grade class. |
+| **Stratified Sampling** | Divide into groups (strata), then sample from each. | Sample farmers by taluka (Wardha, Hinganghat, etc.). |
+| **Systematic**          | Select every *n-th* item (e.g., every 10th name).   | Pick every 5th voter on a registration list. |
+| **Convenience Sampling**| Easy-to-access people (**⚠️ Often biased!**).       | Surveying only nearby students or online respondents. |
+
+---
+
+### 🚨 **What Is Bias?**  
+**Bias** occurs when your sample *does not represent* the population accurately.  
+
+#### 🔍 **Examples of Bias in Vidarbha**  
+- Surveying **only male farmers** but excluding female farm laborers.  
+- Collecting student data **only from English-medium schools**.  
+- Ignoring **remote tribal villages** (e.g., Melghat) in health surveys.  
+
+---
+
+## 📊 **Frequency Tables and Graphs**  
+
+### 📋 **1. Frequency Tables**  
+Summarizes how often values occur in *grouped intervals*.  
+
+#### **Example:**  
+| **Books Read (Range)** | **Frequency** |  
+|------------------------|--------------|  
+| 0–2                    | 5            |  
+| 3–5                    | 12           |  
+| 6–8                    | 7            |  
+| 9–11                   | 3            |  
+
+**Key Terms:**  
+- **Class Intervals**: Grouped ranges (e.g., 0–2, 3–5).  
+- **Frequency**: Count of occurrences in each interval.  
+
+---
+
+### 📊 **2. Bar Graphs**  
+- **Best for**: Categorical data.  
+- **Features**:  
+  - Categories on **x-axis**, frequencies on **y-axis**.  
+  - Bars **do not touch**.  
+
+![Bar Graph Example](https://i.pinimg.com/564x/30/bd/4b/30bd4bd9e3af57b6d3982b802bf33c95.jpg)  
+
+---
+
+### 🥧 **3. Pie Charts**  
+- **Best for**: Showing proportions of a whole.  
+- **Features**:  
+  - Each slice = a category’s percentage.  
+
+![Pie Chart Example](https://www.blog.matchub.net/wp-content/uploads/2019/07/export-India.png)  
+
+---
+
+### 📉 **4. Histograms**  
+- **Best for**: Continuous/grouped data.  
+- **Features**:  
+  - Bars **touch** (unlike bar graphs).  
+  - Represents intervals (e.g., age groups, income ranges).  
+
+![Histogram Example](https://www.w3schools.com/statistics/img_histogram.svg)  
+
+---
+
+### ✅ **Graph Comparison**  
+
+| **Graph Type** | **Best For**          | **Key Feature**             |  
+|----------------|-----------------------|-----------------------------|  
+| Bar Graph      | Categorical data      | Bars don’t touch             |  
+| Pie Chart      | Proportions           | Shows part-whole relations   |  
+| Histogram      | Continuous data       | Bars touch (intervals)       |  
+
+---
+
+## 📐 **Measures of Center and Spread**  
+
+### 🧮 **Measures of Center**  
+- **Mean**: Average value.  
+- **Median**: Middle value (robust to outliers).  
+- **Mode**: Most frequent value.  
+
+**Example (Farmer land sizes in acres):**  
+`2, 2, 3, 2, 30`  
+- **Mean** = 7.8 (skewed by outlier).  
+- **Median** = 2 (better for typical farmer).  
+
+---
+
+### 📏 **Measures of Spread**  
+- **Range**: Max – Min.  
+- **IQR**: Middle 50% (Q3 – Q1).  
+- **Standard Deviation**: Average distance from mean.  
+
+**Example (Daily temperatures in Wardha):**  
+- Small SD = Stable weather.  
+- Large SD = High fluctuation.  
+
+---
+
+### 🚫 **Misleading Graphs**  
+- **Truncated y-axis**: Exaggerates small differences.  
+- **3D pie charts**: Distorts proportions.  
+- **Cherry-picking data**: Hiding trends by selective reporting.  
+
+**Example:** A sugar company shows only 2023–2024 prices to hide long-term inflation.  
+
+---
+
+## 🎲 **Section 2: Probability & Estimation**  
+
+### 🎯 **Key Terms**  
+- **Estimator**: A rule to guess a population value (e.g., sample mean).  
+- **Bias**: Systematic deviation from the true value.  
+- **Variance**: Spread of estimates.  
+
+---
+
+### 🧪 **Frequentist Probability**  
+- Probability = **long-run frequency** of an event.  
+- Example: Coin flips → Heads approach 50% over many trials.  
+
+**Formula:**  
+\[
+P(\text{Event}) = \frac{\text{Number of successes}}{\text{Total trials}}
+\]  
+
+---
+
+### 📊 **Sample Variance**  
+Measures how data spreads around the mean.  
+
+**Formula:**  
+\[
+s^2 = \frac{1}{n-1} \sum (x_i - \bar{x})^2
+\]  
+
+**Why \(n-1\)?**  
+- Corrects bias (**Bessel’s correction**).  
+
+**Example:**  
+Data: `3, 7, 7, 19`  
+Mean = 9 → Variance = 48  
+
+---
+
+## 🎮 **Interactive Activity: Probability Simulation**  
+👉 **Try this app:** [Probability Applet](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)  
+- Simulate coin flips, dice rolls.  
+- Observe how results stabilize with more trials.  
+
+![App Preview](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)  
+
+---
+
+## 📚 **Summary Table**  
+
+| **Concept**               | **Key Idea**                                      |  
+|---------------------------|--------------------------------------------------|  
+| Population vs. Sample      | Entire group vs. subset for analysis.            |  
+| Sampling Bias              | Non-representative sample → flawed conclusions.  |  
+| Mean vs. Median            | Average vs. middle value (robust to outliers).   |  
+| Standard Deviation         | Measures data spread.                            |  
+| Frequentist Probability    | Probability as long-run frequency.               |  
+
+---
+
+## 💡 **Think & Discuss**  
+1. Why can’t we study *every* farmer in Vidarbha?  
+2. How does bad sampling affect policy decisions?  
+3. What does a *high standard deviation* imply?  
+
+
+
+## 🚀 **Next Chapter: Probability Distributions & Inference!**  
+- Learn to model randomness and draw conclusions from data.  
+
