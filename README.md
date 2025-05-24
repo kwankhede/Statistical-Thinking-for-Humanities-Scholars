@@ -30,7 +30,7 @@ By the end of this course, students will:
 
 ---
 
-## 🗂️ 4-Chapter Syllabus
+## 🗂️ Syllabus
 
 ### 📊 **Chapter 1: What Is Statistics? Why Does It Matter?**
 
