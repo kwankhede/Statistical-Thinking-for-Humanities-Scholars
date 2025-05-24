@@ -361,6 +361,7 @@ Want to simulate coin flips, dice rolls, and more?
 ![Simulation Preview](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)
 
 <br> 
+
 ### 🔍 How to Use It
 
 1. Go to the link above
