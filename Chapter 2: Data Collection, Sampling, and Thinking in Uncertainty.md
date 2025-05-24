@@ -258,22 +258,69 @@ IQR represents the **middle 50%** of the data.
 
 <br>
 
-#### ✅ 3. **Standard Deviation (SD)**
+Here's the **improved section** with your requested addition on **Standard Deviation (SD)** and its **formula**, along with the **explanation of Sample Variance** — formatted clearly and aligned with your Chapter 2 content.
 
-This is a precise measure that shows **how far data points are from the mean**, on average.
+---
+
+### ✅ 3. **Standard Deviation (SD) and Sample Variance**
+
+These are **precise numerical measures** of how spread out the data is.
+
+<br>
+
+#### 📏 **Sample Variance**
+
+Sample Variance measures the **average of the squared differences** from the mean. It’s used as a step to calculate standard deviation.
 
 $$
-\text{SD} = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+\text{Variance (}s^2\text{)} = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
 $$
 
-* **Low SD**: Values are close to the mean (stable, consistent data)
-* **High SD**: Values are widely scattered (variable data)
+Where:
 
-📌 *Wardha Example:*
-Daily temperature readings over 7 days:
+* $x_i$ = each data point
+* $\bar{x}$ = sample mean
+* $n$ = number of observations
 
-* If SD = 2°C → very consistent
-* If SD = 8°C → large variation (e.g., hot days and cool nights)
+<br>
+
+#### 📊 **Standard Deviation (SD)**
+
+This is the **square root** of the sample variance. It gives us a value **in the same unit as the original data**, making it easier to interpret.
+
+$$
+\text{SD} = \sqrt{ \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2 }
+$$
+
+* **Low SD** → Values are close to the mean
+* **High SD** → Values are spread far from the mean
+
+<br>
+
+#### 📌 *Wardha Example: Daily Temperature Over 7 Days*
+
+| Day       | Temp (°C) |
+| --------- | --------- |
+| Monday    | 32        |
+| Tuesday   | 33        |
+| Wednesday | 34        |
+| Thursday  | 33        |
+| Friday    | 32        |
+| Saturday  | 33        |
+| Sunday    | 34        |
+
+If SD = **2°C** → Temperatures are **stable and consistent**
+
+If SD = **8°C** → Temperatures vary **widely** (e.g., **hot days, cool nights**)
+
+<br>
+
+> **Why it matters:**
+>
+> * In **climate studies**, a high SD may signal erratic weather patterns.
+> * In **education**, high SD in test scores shows large learning differences among students.
+
+
 
 <br>
 
