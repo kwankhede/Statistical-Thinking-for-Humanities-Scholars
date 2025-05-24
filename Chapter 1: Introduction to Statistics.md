@@ -175,127 +175,151 @@ They lead to bad survey questions, poor interpretation, and narrow conclusions.
 <br>
 
 
-# 🔍 What is Statistics?
+
+### 📊 What is Statistics?
 
 **Statistics** is the science (and art) of:
-- **Collecting** data
-- **Organizing** it clearly
-- **Analyzing** it to find patterns
-- **Interpreting** it to make decisions
 
-It helps us understand the world by turning raw data into useful knowledge.
+* **Collecting** data
+* **Organizing** it clearly
+* **Analyzing** it to find patterns
+* **Interpreting** it to make decisions
 
-> “You are bombarded with numbers every day. What do these numbers mean?”  
-> - 30% chance of rain tomorrow  
-> - NCP polling 32% in elections (±5% margin of error)  
-> - COVID-19 fatality rate of 1.5% in India  
+It helps us turn raw information into **useful knowledge** for real-life decisions.
+
+> 📺 *“You are bombarded with numbers every day. What do they mean?”*
+>
+> * 30% chance of rain tomorrow
+> * NCP polling 32% in elections (±5% margin of error)
+> * COVID-19 fatality rate of 1.5% in India
+
+<br>
+
+### 📘 Statistics: A Science and an Art
+
+* **Science**: Uses math, formulas, and software to study data.
+* **Art**: Requires judgment — what to include, what to ignore, and how to communicate results meaningfully.
+
+> *Example (Vidarbha)*: A farmer in Wardha tracks rainfall and yield to decide when to sow cotton — this is both scientific (data-driven) and intuitive (based on experience).
+
+<br>
+
+### 💡 Why Learn Statistics?
+
+It’s not just numbers — it helps us **make better decisions** in every field:
+
+| Area          | Local Example                                 |
+| ------------- | --------------------------------------------- |
+| 📈 Farming    | Fertilizer comparisons in Akola               |
+| 🏥 Health     | Dengue and malnutrition tracking in Melghat   |
+| 🎓 Education  | Literacy and dropout analysis in tribal areas |
+| 🌧️ Climate   | Rain forecasts in Buldhana                    |
+| 🗳️ Elections | Voter turnout trends in Gram Panchayats       |
+
+<br>
+
+### 🎯 What Is a Statistical Question?
+
+A **statistical question** involves variability and requires data to answer.
+
+| Example                                    | Is it Statistical? |
+| ------------------------------------------ | ------------------ |
+| “How tall are you?”                        | ❌ No               |
+| “What is the average height in Wardha?”    | ✅ Yes              |
+| “How do test scores vary across Vidarbha?” | ✅ Yes              |
+
+> If the answer could vary and needs multiple data points — it’s a statistical question!
+
+<br>
+
+### 📘 Branches of Statistics
+
+| Branch          | Description                                     | Example (Vidarbha)                             |
+| --------------- | ----------------------------------------------- | ---------------------------------------------- |
+| **Descriptive** | Summarizes data using graphs, tables, averages  | Cotton yield in Wardha                         |
+| **Inferential** | Makes predictions from a sample to a population | Survey 100 farmers in Yavatmal to infer trends |
+
+#### 🧠 Descriptive Statistics includes:
+
+* Measures of central tendency: **Mean**, **Median**, **Mode**
+* Charts: **Bar graphs**, **Pie charts**, **Histograms**
+* Tables: **Frequency distributions**, **cross-tabulations**
+
+> Descriptive statistics help you make sense of large amounts of raw data. They give you a clear picture of "what is" without making assumptions or predictions.
+
+#### 🧠 Inferential Statistics includes:
+
+* **Estimating population parameters** using sample statistics
+* **Confidence intervals** to express uncertainty around estimates
+* **Hypothesis testing** to determine if observed effects are statistically significant
+* **Regression analysis** to understand relationships between variables
+
+> Descriptive = *Describe what we have.*
+> Inferential = *Use what we have to say something bigger.*
+
+<br>
+
+### 🗃️ What is Data?
+
+**Data** refers to facts, figures, and other evidence gathered through observation.
+It could be **numbers**, **names**, **measurements**, or **labels**.
+
+#### 🔍 Types of Raw Data:
+
+* Numbers in a survey
+* Observations in a classroom
+* Entries in a health register
+
+#### 📊 Example Dataset:
+
+| Name  | Gender | Height (cm) | Weight (kg) |
+| ----- | ------ | ----------- | ----------- |
+| Ravi  | M      | 150.2       | 45.3        |
+| Meena | F      | 160.0       | 60.1        |
+
+#### ⚠️ Why Raw Data Needs Cleaning:
+
+Before analysis, data often needs:
+
+* **Removing symbols or errors** (e.g., #160, @weight)
+* **Dealing with missing values** (e.g., no height mentioned)
+* **Estimating uncertainty** (e.g., height = 160 ± 0.5 cm)
+
+> Clean data = Trustworthy results.
+
+<br>
+
+### 🔢 Discrete vs. Continuous Data
+
+**Numerical data** is divided into two types: **Discrete** and **Continuous**.
+
+| Type           | Definition                                    | Examples (Local Context)                        |
+| -------------- | --------------------------------------------- | ----------------------------------------------- |
+| **Discrete**   | Countable whole number values                 | Number of students in a class, cows in a farm   |
+| **Continuous** | Measurable quantities that can take any value | Height of students, rainfall in mm, crop weight |
+
+#### 🧠 More examples:
+
+* **Discrete**: Number of trees planted during a campaign, total siblings, buses on a route
+* **Continuous**: Temperature in Nagpur during summer, distance walked in km, weight of harvested onions
+
+> Discrete = "How many?" — countable
+> Continuous = "How much?" — measurable
+
+<br>
+
+### 📝 Recap Summary
+
+| Concept                    | Description                                         |
+| -------------------------- | --------------------------------------------------- |
+| **Statistics**             | The science of collecting and interpreting data     |
+| **Descriptive Statistics** | Summarizing what we know from data                  |
+| **Inferential Statistics** | Using data to predict or estimate something unknown |
+| **Statistical Question**   | Requires data and looks for variation               |
+| **Data**                   | Observations or facts used for analysis             |
+| **Data Cleaning**          | Removing errors and preparing data for study        |
+| **Discrete Data**          | Countable, whole-number values                      |
+| **Continuous Data**        | Measurable, can take any value within a range       |
 
 ---
 
-## 📘 Statistics: A Science and an Art
-
-- **Science**: Uses mathematical tools and models.
-- **Art**: Requires judgment — what to keep, what to discard.
-
-> *Example (Vidarbha)*: A farmer in Wardha analyzes rainfall data to decide the best time to sow cotton.
-
----
-
-## 🗃️ What is Data?
-
-**Data** = collections of facts: numbers, names, categories.
-
-> *Example dataset*:  
-> `Sex | Height (cm) | Weight (kg)`  
-> `F | 150.2 | 45.3`  
-> `M | 160.0 | 60.1`
-
-Data needs **cleaning** before analysis:
-- Remove symbols like `@` or `#`
-- Handle missing or extreme values
-- Record uncertainty (e.g., ± 0.1 cm)
-
----
-
-## 📘 Branches of Statistics
-
-| Branch               | Description                                           | Example (Vidarbha)                                |
-|----------------------|-------------------------------------------------------|---------------------------------------------------|
-| **Descriptive**      | Summarizes data using graphs, tables, averages        | Cotton yield in Wardha                            |
-| **Inferential**      | Makes predictions from a sample to a population       | Survey 100 farmers in Yavatmal to infer trends    |
-
----
-
-## 📌 Why Is Statistics Important?
-
-**Real-world uses in Vidarbha**:
-- 📈 Farming: Compare fertilizer impacts in Akola
-- 🏥 Public Health: Dengue tracking in Nagpur
-- 🎓 Education: Literacy rates in tribal schools
-- 🌧️ Climate: Rain forecasts in Buldhana
-- 🗳️ Elections: Polling analysis in Gram Panchayats
-
----
-
-## 🧩 Types of Data
-
-### A. **Qualitative (Categorical)**
-
-- Categories or labels (not numbers)  
-  e.g. Soil type, favorite food, caste
-
-### B. **Quantitative (Numerical)**
-
-#### Discrete:
-- Countable values (e.g. cows, family members)
-
-#### Continuous:
-- Measurable values (e.g. weight, rainfall, height)
-
----
-
-## 🎯 What Is a Statistical Question?
-
-A **statistical question** looks for patterns or variation:
-
-| Example                              | Type                |
-|--------------------------------------|---------------------|
-| “How tall are you?”                  | Not statistical     |
-| “What is the average height in Wardha?” | Statistical         |
-| “How do test scores vary across Vidarbha?” | Statistical       |
-
----
-
-## 💬 Think & Reflect
-
-- Have you ever judged based on a **false binary**?
-- What role do your **priors** play in decision-making?
-- Where do you see statistics being used (or misused) in daily life?
-
----
-
-## 📝 Summary Table
-
-| Concept             | Description                                      |
-|---------------------|--------------------------------------------------|
-| **Priors**          | Assumptions formed by past experience            |
-| **False Dichotomy** | Artificial two-option thinking                   |
-| **Statistics**      | The science of data                              |
-| **Descriptive**     | Describes data (mean, graphs, etc.)              |
-| **Inferential**     | Generalizes from sample to population            |
-| **Qualitative**     | Categories (e.g. type of land)                   |
-| **Quantitative**    | Numbers (discrete or continuous)                 |
-| **Data Cleaning**   | Preparing data for analysis                      |
-| **Statistical Question** | Involves patterns, not one fixed answer    |
-
----
-
-## 📚 Homework/Practice
-
-1. Collect 3 examples of **false dichotomies** from media or personal life.  
-2. Interview 5 classmates:
-   - Age, gender, favorite food.
-   - Classify each data type.
-3. Write a short paragraph on how one of your **priors** has changed over time due to evidence or experience.
-
----
