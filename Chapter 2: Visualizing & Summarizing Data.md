@@ -90,7 +90,7 @@ A **frequency table** summarizes data by showing the number of times each item o
 
 ### 🔹 Example:
 
-(Insert bar graph image here)
+![Insert bar chart image here](https://i.pinimg.com/564x/30/bd/4b/30bd4bd9e3af57b6d3982b802bf33c95.jpg)
 
 ---
 
@@ -104,7 +104,7 @@ A **frequency table** summarizes data by showing the number of times each item o
 
 ### 🔹 Example:
 
-(Insert pie chart image here)
+![Insert pie chart image here](https://www.blog.matchub.net/wp-content/uploads/2019/07/export-India.png)
 
 ---
 
@@ -119,7 +119,7 @@ A **frequency table** summarizes data by showing the number of times each item o
 
 ### 🔹 Example:
 
-(Insert histogram image here)
+![Insert histogram image here](https://www.researchgate.net/publication/43627836/figure/fig9/AS:341541332766731@1458441207913/ndia-Cloth-production-by-sector-1990-2004-Billion-meters.png)
 
 ---
 
