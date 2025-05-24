@@ -374,6 +374,7 @@ Want to simulate coin flips, dice rolls, and more?
 
 
 <br> 
+
 ### 🧾 Summary Table: Measures of Center and Spread
 
 | Measure                  | What It Tells Us              | Best Used When…                             |
