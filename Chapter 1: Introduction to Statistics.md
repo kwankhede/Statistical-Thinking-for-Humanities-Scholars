@@ -176,7 +176,7 @@ They lead to bad survey questions, poor interpretation, and narrow conclusions.
 
 
 
-### 📊 What is Statistics?
+# 📊 What is Statistics?
 
 **Statistics** is the science (and art) of:
 
