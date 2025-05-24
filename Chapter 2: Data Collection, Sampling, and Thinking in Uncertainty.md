@@ -133,15 +133,14 @@ A **frequency table** summarizes data by showing the number of times each item o
 <br>
 <br>
 
-Here's your **revised and enriched version** of the 📐 *Measures of Center and Spread* section — with **nothing removed**, all your original content intact, and now better formatted, more structured, and even clearer for student understanding:
 
----
+
 
 ## 📐 Measures of Center and Spread
 
 In this section, we focus on how to **summarize data numerically** using measures of **central tendency** and **spread**, and how to be cautious of **outliers** and **misleading graphs**.
 
----
+<br>
 
 ### 🧠 Measures of Center
 
@@ -182,7 +181,7 @@ These describe a “typical” or “central” value in a dataset:
   \text{Mode} = 3
   $$
 
----
+<br>
 
 ### 🚨 Outliers and Their Effects
 
@@ -198,7 +197,7 @@ An **outlier** is a data point that is far removed from others.
 > * **Mean** = 7.8 (skewed by the outlier)
 > * **Median** = 2 (more reliable for typical case)
 
----
+<br>
 
 ### 📊 Measures of Spread
 
@@ -217,7 +216,7 @@ $$
 \text{Range} = 85 - 35 = 50
 $$
 
----
+<br>
 
 #### ✅ 2. **Interquartile Range (IQR)**
 
@@ -231,7 +230,7 @@ $$
 
 > Example: Marks of 20 students — IQR helps detect how consistent the middle students are.
 
----
+<br>
 
 #### ✅ 3. **Standard Deviation (SD)**
 
@@ -247,8 +246,7 @@ $$
 >
 > * If SD is low: temperature is stable
 > * If SD is high: weather is fluctuating
-
----
+<br>
 
 ### 🚫 Misleading Graphs and Visual Tricks
 
@@ -262,7 +260,7 @@ Some graphs are designed to **confuse** or **manipulate** viewers.
 
 > 📌 *Example:* A sugar company shows only 2023–2024 prices to **hide a 5-year price rise** trend.
 
----
+<br>
 
 ### 🧾 Summary Table: Measures of Center and Spread
 
@@ -275,4 +273,4 @@ Some graphs are designed to **confuse** or **manipulate** viewers.
 | **IQR**                | Spread of middle 50% of data    | More reliable than range when outliers exist    |
 | **Standard Deviation** | Average distance from the mean  | Need for precision and detecting consistency    |
 
----
+<br>
