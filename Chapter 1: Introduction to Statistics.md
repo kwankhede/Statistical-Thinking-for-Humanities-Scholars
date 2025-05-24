@@ -193,7 +193,7 @@ It helps us turn raw information into **useful knowledge** for real-life decisio
 > * NCP polling 32% in elections (±5% margin of error)
 > * COVID-19 fatality rate of 1.5% in India
 
----
+<br>
 
 ### 📘 Statistics: A Science and an Art
 
@@ -202,7 +202,7 @@ It helps us turn raw information into **useful knowledge** for real-life decisio
 
 > *Example (Vidarbha)*: A farmer in Wardha tracks rainfall and yield to decide when to sow cotton — this is both scientific (data-driven) and intuitive (based on experience).
 
----
+<br>
 
 ### 💡 Why Learn Statistics?
 
@@ -216,7 +216,7 @@ It’s not just numbers — it helps us **make better decisions** in every field
 | 🌧️ Climate   | Rain forecasts in Buldhana                    |
 | 🗳️ Elections | Voter turnout trends in Gram Panchayats       |
 
----
+<br>
 
 ### 🎯 What Is a Statistical Question?
 
@@ -230,7 +230,7 @@ A **statistical question** involves variability and requires data to answer.
 
 > If the answer could vary and needs multiple data points — it’s a statistical question!
 
----
+<br>
 
 ### 📘 Branches of Statistics
 
@@ -257,7 +257,7 @@ A **statistical question** involves variability and requires data to answer.
 > Descriptive = *Describe what we have.*
 > Inferential = *Use what we have to say something bigger.*
 
----
+<br>
 
 ### 🗃️ What is Data?
 
@@ -270,7 +270,7 @@ It could be **numbers**, **names**, **measurements**, or **labels**.
 * Observations in a classroom
 * Entries in a health register
 
----
+<br>
 
 ### 🗂️ Types of Data: Categorical vs. Numerical
 
@@ -282,7 +282,7 @@ It could be **numbers**, **names**, **measurements**, or **labels**.
 > Categorical = *Labels/Groups* — no mathematical meaning.
 > Numerical = *Numbers* — used in calculations.
 
----
+<br>
 
 #### 📊 Example Dataset:
 
@@ -301,7 +301,7 @@ Before analysis, data often needs:
 
 > Clean data = Trustworthy results.
 
----
+<br>
 
 ### 🔢 Discrete vs. Continuous Data
 
@@ -320,7 +320,7 @@ Before analysis, data often needs:
 > Discrete = "How many?" — countable
 > Continuous = "How much?" — measurable
 
----
+<br>
 
 ### 👥 Populations and Samples
 
@@ -336,7 +336,7 @@ Before analysis, data often needs:
 
 > Good sampling = more accurate and reliable conclusions.
 
----
+<br>
 
 ### 📋 Sampling Methods and Survey Bias
 
@@ -355,7 +355,9 @@ Before analysis, data often needs:
 
 > Always ask: "Does this sample truly represent the whole population?"
 
----
+![IQ chart](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chaper1.2.png)
+
+<br>
 
 ### 📝 Recap Summary
 
