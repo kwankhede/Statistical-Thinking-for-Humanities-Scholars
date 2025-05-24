@@ -140,7 +140,6 @@ A **frequency table** summarizes data by showing the number of times each item o
 
 In this section, we focus on how to **summarize data numerically** using measures of **central tendency** and **spread**, and how to be cautious of **outliers** and **misleading graphs**.
 
----
 
 ### 🧠 Measures of Center
 
@@ -163,7 +162,7 @@ $$
 
 ➡️ This is misleading because the mean is pulled up by a single large value (30 acres).
 
----
+<br>
 
 #### 🔹 2. **Median** — The Middle Value
 
@@ -178,7 +177,7 @@ $$
 
 ➡️ Median reflects the *typical* landholding better than the mean here.
 
----
+<br>
 
 #### 🔹 3. **Mode** — Most Frequent Value
 
@@ -193,7 +192,7 @@ $$
 
 ➡️ Useful in situations like identifying most common crop type, favorite festival food, etc.
 
----
+<br>
 
 ### 🚨 Outliers and Their Effects
 
@@ -212,13 +211,13 @@ Land sizes: 2, 2, 3, 2, 30
 
 📌 *Conclusion:* Use **median** or **IQR** instead of mean when outliers are present.
 
----
+<br>
 
 ### 📊 Measures of Spread
 
 While center tells us what is typical, **spread** tells us how **consistent or varied** the data is.
 
----
+<br>
 
 #### ✅ 1. **Range**
 
@@ -235,7 +234,7 @@ $$
 
 ➡️ Easy to calculate, but can be affected by outliers.
 
----
+<br>
 
 #### ✅ 2. **Interquartile Range (IQR)**
 
@@ -257,7 +256,7 @@ IQR represents the **middle 50%** of the data.
 >
 > This shows the central tendency without getting distorted by extremes.
 
----
+<br>
 
 #### ✅ 3. **Standard Deviation (SD)**
 
@@ -276,7 +275,7 @@ Daily temperature readings over 7 days:
 * If SD = 2°C → very consistent
 * If SD = 8°C → large variation (e.g., hot days and cool nights)
 
----
+<br>
 
 ### 🚫 Misleading Graphs and Visual Tricks
 
@@ -304,83 +303,7 @@ Some charts are **manipulated** to mislead the audience.
 | **Standard Deviation** | Precise spread from the mean | When detail and accuracy are needed            |
 
 
-Here is your **revised and complete section** for **📐 Measures of Center and Spread**, now with:
-
-* Better explanations
-* Additional examples
-* Law of Large Numbers
-* **Web links and image preview for simulation tool**
-
-All original content is kept intact and improved for clarity and educational value:
-
----
-
-## 📐 Measures of Center and Spread
-
-In this section, we focus on how to **summarize data numerically** using measures of **central tendency** and **spread**, understand **frequencies**, and be cautious of **outliers**, **misleading graphs**, and **misinterpretations due to small sample sizes**.
-
----
-
-### 🧠 Measures of Center
-
-These describe a “typical” or “central” value in a dataset:
-
----
-
-#### 🔹 **1. Mean** (Arithmetic Average)
-
-$$
-\text{Mean} = \frac{\text{Sum of all values}}{\text{Number of values}}
-$$
-
-**Example:**
-Land sizes (in acres): 2, 2, 3, 2, 30
-
-$$
-\text{Mean} = \frac{2+2+3+2+30}{5} = 7.8
-$$
-
-➡️ The mean is pulled up by the **outlier** (30 acres).
-
----
-
-#### 🔹 **2. Median** (Middle Value)
-
-Sorted values: 2, 2, 2, 3, 30
-
-$$
-\text{Median} = 2
-$$
-
-➡️ Median gives a better sense of what’s **typical** when there are extreme values.
-
----
-
-#### 🔹 **3. Mode** (Most Frequent Value)
-
-Values: 2, 2, 3, 3, 3, 4
-
-$$
-\text{Mode} = 3
-$$
-
-➡️ Useful in finding the **most common** response (e.g., favorite fruit, common income group).
-
----
-
-### 📈 Frequencies and Repetition in Data
-
-**Frequency** refers to **how often** a value appears in a dataset.
-
-| Value | Frequency |
-| ----- | --------- |
-| 2     | 3 times   |
-| 3     | 2 times   |
-| 4     | 1 time    |
-
-➡️ Understanding frequency is the foundation of **probability** and **data summaries**.
-
----
+<br> 
 
 ### 🎲 Coin Toss and Relative Frequency
 
@@ -398,7 +321,7 @@ Imagine flipping a fair coin:
 
 As the number of tosses increases, the relative frequency approaches the **expected value** (0.5 for heads).
 
----
+<br> 
 
 ## 📜 Law of Large Numbers (LLN)
 
@@ -406,15 +329,15 @@ The **Law of Large Numbers** states:
 
 > As the number of trials increases, the **observed average** (relative frequency) will **converge** to the **expected average**.
 
----
+<br> 
 
-### 📌 Why LLN Matters
+### 📌 Why Law of Large Numbers (LLN) Matters
 
 * **Small samples** may be misleading.
 * **Larger samples** give more stable, reliable results.
 * It **justifies sampling** in surveys, elections, crop studies, etc.
 
----
+<br> 
 
 ### 🧪 Coin Toss LLN Example
 
@@ -426,7 +349,7 @@ Much closer!
 
 ➡️ The larger the sample, the more **trustworthy** the estimate.
 
----
+<br> 
 
 ## 🎮 Probability Simulation: Try It Yourself!
 
@@ -437,6 +360,7 @@ Want to simulate coin flips, dice rolls, and more?
 
 ![Simulation Preview](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)
 
+<br> 
 ### 🔍 How to Use It
 
 1. Go to the link above
@@ -447,82 +371,8 @@ Want to simulate coin flips, dice rolls, and more?
 
 > A powerful way to explore the **Law of Large Numbers** in action!
 
----
 
-### 🚨 Outliers and Their Effects
-
-An **outlier** is a data point very different from others:
-
-* Skews the **mean**
-* Leaves **median** unchanged
-* Can **mislead conclusions**
-
-**Example:**
-Land sizes: 2, 2, 3, 2, 30
-
-* Mean = 7.8
-* Median = 2
-  ➡️ Median gives a clearer picture of typical land size.
-
----
-
-### 📊 Measures of Spread
-
----
-
-#### ✅ 1. **Range**
-
-$$
-\text{Range} = \text{Maximum} - \text{Minimum}
-$$
-
-**Example:**
-Marks: 35, 40, 45, 60, 85
-
-$$
-\text{Range} = 85 - 35 = 50
-$$
-
----
-
-#### ✅ 2. **Interquartile Range (IQR)**
-
-$$
-\text{IQR} = Q_3 - Q_1
-$$
-
-IQR captures the **middle 50%** of values and helps ignore outliers.
-
----
-
-#### ✅ 3. **Standard Deviation (SD)**
-
-Measures average distance from the mean:
-
-$$
-\text{SD} = \sqrt{\frac{1}{n - 1} \sum (x_i - \bar{x})^2}
-$$
-
-📌 *Wardha Example:*
-
-* If SD of daily temperatures is low → consistent weather
-* If SD is high → wide fluctuation
-
----
-
-### 🚫 Misleading Graphs and Visual Tricks
-
-| Trick                    | Why It’s Misleading       |
-| ------------------------ | ------------------------- |
-| **Truncated y-axis**     | Exaggerates small changes |
-| **3D/tilted pie charts** | Distorts proportions      |
-| **Cherry-picked data**   | Hides long-term patterns  |
-
-📌 *Example:*
-Only showing sugar prices in 2023–24 to hide a long-term rise since 2019.
-
----
-
+<br> 
 ### 🧾 Summary Table: Measures of Center and Spread
 
 | Measure                  | What It Tells Us              | Best Used When…                             |
@@ -536,8 +386,6 @@ Only showing sugar prices in 2023–24 to hide a long-term rise since 2019.
 | **Frequency**            | Repetition of values          | Foundational for probability and summaries  |
 | **Law of Large Numbers** | Big samples are more accurate | Crucial for reliable generalizations        |
 
----
 
-Let me know if you'd like to turn this into a printable worksheet, class activity, or interactive Jupyter notebook!
 
 
