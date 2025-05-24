@@ -50,6 +50,96 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 
 ---
 
+
+
+# Frequency Tables and Types of Graphs
+
+## 📊 Overview
+
+This module introduces how to organize data using **frequency tables** and how to represent that data visually using **bar graphs**, **pie charts**, and **histograms**.
+
+---
+
+## 📋 1. Frequency Tables
+
+A **frequency table** summarizes data by showing the number of times each item occurs.
+
+### 🔹 Example:
+
+| Data (Number of Books Read) | Frequency |
+|-----------------------------|-----------|
+| 0–2                         | 5         |
+| 3–5                         | 12        |
+| 6–8                         | 7         |
+| 9–11                        | 3         |
+
+**Key terms:**
+- **Class intervals**: Grouped ranges (e.g., 0–2, 3–5)
+- **Frequency**: How often each class occurs
+
+---
+
+## 📊 2. Bar Graphs
+
+**Bar graphs** use rectangular bars to represent data values. The length/height of the bar shows the frequency.
+
+### 🔹 Features:
+- Categories on the x-axis
+- Frequencies on the y-axis
+- Bars **do not touch**
+
+### 🔹 Example:
+
+(Insert bar graph image here)
+
+---
+
+## 🥧 3. Pie Charts
+
+**Pie charts** display data as slices of a circle, with each slice representing a proportion of the whole.
+
+### 🔹 Features:
+- Best for **categorical data**
+- Each slice represents a percentage
+
+### 🔹 Example:
+
+(Insert pie chart image here)
+
+---
+
+## 📉 4. Histograms
+
+**Histograms** look like bar graphs but are used for **continuous data**.
+
+### 🔹 Features:
+- Bars **touch each other**
+- Represents **intervals** on x-axis
+- Useful for **grouped frequency data**
+
+### 🔹 Example:
+
+(Insert histogram image here)
+
+---
+
+## ✅ Summary
+
+| Type of Graph | Best For              | Notes                      |
+|---------------|-----------------------|----------------------------|
+| Bar Graph     | Categorical data      | Bars don't touch           |
+| Pie Chart     | Categorical data      | Good for part-whole view   |
+| Histogram     | Continuous/grouped data | Bars touch; shows intervals |
+
+
+
+## 📚 Further Reading & Tools
+
+- [Khan Academy – Bar graphs and histograms](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data)
+- [Desmos Graphing Calculator](https://www.desmos.com/)
+- [ChartGo Graph Maker](https://www.chartgo.com/)
+
+
 ## 🎲 Section 2: Estimation and Thinking in Uncertainty
 
 ### 🎯 Key Terms
