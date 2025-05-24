@@ -193,7 +193,7 @@ It helps us turn raw information into **useful knowledge** for real-life decisio
 > * NCP polling 32% in elections (±5% margin of error)
 > * COVID-19 fatality rate of 1.5% in India
 
-<br>
+---
 
 ### 📘 Statistics: A Science and an Art
 
@@ -202,7 +202,7 @@ It helps us turn raw information into **useful knowledge** for real-life decisio
 
 > *Example (Vidarbha)*: A farmer in Wardha tracks rainfall and yield to decide when to sow cotton — this is both scientific (data-driven) and intuitive (based on experience).
 
-<br>
+---
 
 ### 💡 Why Learn Statistics?
 
@@ -216,7 +216,7 @@ It’s not just numbers — it helps us **make better decisions** in every field
 | 🌧️ Climate   | Rain forecasts in Buldhana                    |
 | 🗳️ Elections | Voter turnout trends in Gram Panchayats       |
 
-<br>
+---
 
 ### 🎯 What Is a Statistical Question?
 
@@ -230,7 +230,7 @@ A **statistical question** involves variability and requires data to answer.
 
 > If the answer could vary and needs multiple data points — it’s a statistical question!
 
-<br>
+---
 
 ### 📘 Branches of Statistics
 
@@ -257,7 +257,7 @@ A **statistical question** involves variability and requires data to answer.
 > Descriptive = *Describe what we have.*
 > Inferential = *Use what we have to say something bigger.*
 
-<br>
+---
 
 ### 🗃️ What is Data?
 
@@ -269,6 +269,20 @@ It could be **numbers**, **names**, **measurements**, or **labels**.
 * Numbers in a survey
 * Observations in a classroom
 * Entries in a health register
+
+---
+
+### 🗂️ Types of Data: Categorical vs. Numerical
+
+| Type                          | Description                                  | Local Examples                                 |
+| ----------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| **Categorical** (Qualitative) | Describes categories or labels (not numbers) | Soil type (black/red), village names, religion |
+| **Numerical** (Quantitative)  | Measured or counted data in number form      | Income, temperature, number of classrooms      |
+
+> Categorical = *Labels/Groups* — no mathematical meaning.
+> Numerical = *Numbers* — used in calculations.
+
+---
 
 #### 📊 Example Dataset:
 
@@ -287,7 +301,7 @@ Before analysis, data often needs:
 
 > Clean data = Trustworthy results.
 
-<br>
+---
 
 ### 🔢 Discrete vs. Continuous Data
 
@@ -306,7 +320,42 @@ Before analysis, data often needs:
 > Discrete = "How many?" — countable
 > Continuous = "How much?" — measurable
 
-<br>
+---
+
+### 👥 Populations and Samples
+
+| Term           | Definition                                 | Example                                    |
+| -------------- | ------------------------------------------ | ------------------------------------------ |
+| **Population** | Entire group you want to study             | All school-going children in Chandrapur    |
+| **Sample**     | A small group selected from the population | 200 students from 10 schools in Chandrapur |
+
+#### Why Sampling?
+
+* It’s often not practical to study every individual.
+* A sample helps us make **inferences** about the whole population.
+
+> Good sampling = more accurate and reliable conclusions.
+
+---
+
+### 📋 Sampling Methods and Survey Bias
+
+| Sampling Method   | Description                                | Example                                                |
+| ----------------- | ------------------------------------------ | ------------------------------------------------------ |
+| **Simple Random** | Everyone has an equal chance               | Pick names from a bowl or lottery                      |
+| **Stratified**    | Divide into groups, sample from each group | Sample equal number of boys and girls from every grade |
+| **Systematic**    | Select every *k*th person                  | Every 10th voter in a booth                            |
+| **Convenience**   | Select easiest to reach (⚠️ biased)        | Only students from one tuition center                  |
+
+#### ⚠️ Survey Bias Can Occur If:
+
+* You ignore certain groups (e.g., only survey online users)
+* The question is confusing or leading
+* People refuse to respond (non-response bias)
+
+> Always ask: "Does this sample truly represent the whole population?"
+
+---
 
 ### 📝 Recap Summary
 
@@ -317,9 +366,13 @@ Before analysis, data often needs:
 | **Inferential Statistics** | Using data to predict or estimate something unknown |
 | **Statistical Question**   | Requires data and looks for variation               |
 | **Data**                   | Observations or facts used for analysis             |
+| **Categorical Data**       | Labels or groups (e.g., gender, caste, soil type)   |
+| **Numerical Data**         | Numbers (e.g., age, marks, income)                  |
 | **Data Cleaning**          | Removing errors and preparing data for study        |
 | **Discrete Data**          | Countable, whole-number values                      |
 | **Continuous Data**        | Measurable, can take any value within a range       |
+| **Population**             | The full group of interest                          |
+| **Sample**                 | A smaller group studied to infer about the whole    |
+| **Survey Bias**            | A flaw that causes misrepresentation in data        |
 
 ---
-
