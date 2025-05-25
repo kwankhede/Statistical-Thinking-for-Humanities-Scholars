@@ -19,13 +19,12 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 
 ## 🎥 YouTube Channels (English & Hindi)
 
-### 🇮🇳 [Statistics in Hindi – Learn and Grow](https://www.youtube.com/playlist?list=PL7rCZk2RzGBrIRj8eykzq_lL8RpmyV2vK)
-- Explains basic concepts in Hindi using real-life examples.
+### 🇮🇳 [Statistics in Hindi – Learn and Grow](https://www.youtube.com/watch?v=S7LvZZNq4ys)
+- Easy-to-follow explanations of core statistical concepts in Hindi.
+- Suitable for beginners and humanities/social science students.
 
-### 🇮🇳 [Statistics Lectures in Hindi – Shiksha House](https://www.youtube.com/playlist?list=PL9RcWoqXmzaJCGgL1G7xURpQ4Q3sqHYbR)
-- Covers full statistics syllabus for beginners and social science students.
 
-### 📊 [CrashCourse – Statistics (English)](https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H)
+### 📊 [CrashCourse – Statistics (English)](https://www.youtube.com/watch?v=zouPoc49xbk&list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 - Highly engaging and visual.
 - Good for conceptual understanding.
 
@@ -53,23 +52,4 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 - Free limited access; paid full access.
 
 ### ✅ [Stat Trek – Practice & Tutorials](https://stattrek.com/)
-- Includes tutorials, calculators, and AP stats preparation.
-
----
-
-## 🛠 Tools & Calculators
-
-- 🔢 [Desmos Statistics Calculator](https://www.desmos.com/calculator)
-- 📊 [GeoGebra – Statistics Tools](https://www.geogebra.org/statistics)
-- 🧮 [GraphPad QuickCalcs](https://www.graphpad.com/quickcalcs/)
-
----
-
-## 🧠 For Deeper Learning (Optional)
-
-- [Coursera – Stanford's Intro to Statistics (by Prof. Guenther)](https://www.coursera.org/learn/statistics)
-- [Harvard Online – Statistics and R](https://online-learning.harvard.edu/course/statistics-and-r)
-
----
-
-If you'd like this in PDF format, with clickable links and examples included, just ask!
+- Includes tutorials, calculators, and AP s
