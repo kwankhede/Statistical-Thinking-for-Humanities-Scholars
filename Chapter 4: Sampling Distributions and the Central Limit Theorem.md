@@ -1,3 +1,7 @@
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
+
+<br>
+
 # 📊 Chapter 4: Sampling Distributions and the Central Limit Theorem
 
 Welcome to **Chapter 4**! 🎉  
