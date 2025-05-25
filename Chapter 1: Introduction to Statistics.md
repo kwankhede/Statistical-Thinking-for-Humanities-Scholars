@@ -1,11 +1,12 @@
 # 📊 Chapter 1: Introduction to Statistics
 
 Welcome to **Chapter 1** of the *Statistical Thinking for Humanities Scholars* course!  
-This chapter begins your journey into the world of statistics — a vital tool for understanding data, recognizing patterns, and making informed decisions, especially in the context of humanities studies and projects.
+This chapter begins your journey into the world of statistics — a vital tool for understanding data, recognizing patterns, and making informed decisions, especially in the context of humanities.
 
-<br>
+---
 
-### 🧠 Everyday Statistical Thinking: Priors, Bias & Instinct
+## 🧠 Everyday Statistical Thinking: 
+### Priors, Bias & Instinct
 
 Before we even get into technical concepts, it's important to understand:
 
@@ -200,7 +201,7 @@ It helps us turn raw information into **useful knowledge** for real-life decisio
 * **Science**: Uses math, formulas, and software to study data.
 * **Art**: Requires judgment — what to include, what to ignore, and how to communicate results meaningfully.
 
-> *Example (Vidarbha)*: A farmer in Wardha tracks rainfall and yield to decide when to sow cotton — this is both scientific (data-driven) and intuitive (based on experience).
+> *Example*: A farmer in Wardha tracks rainfall and yield to decide when to sow cotton — this is both scientific (data-driven) and intuitive (based on experience).
 
 <br>
 
