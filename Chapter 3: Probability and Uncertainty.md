@@ -3,11 +3,11 @@
 Welcome to **Chapter 3** of *Statistical Thinking for Humanities Scholars*!  
 In this chapter, we explore how **chance**, **uncertainty**, and **patterns** shape our decisions and data interpretation.
 
----
+<br>
 
 Here's a more **detailed and student-friendly explanation** of the two sections — **Basics of Probability** and **Expected Value** — with added depth, clarity, local examples, and visual-friendly formatting in Markdown:
 
----
+<br>
 
 ## 🔢 Section 1: Basics of Probability
 
@@ -17,8 +17,8 @@ We use probability to make predictions and decisions in real life:
 
 * “Will it rain tomorrow?” → Based on weather models.
 * “What’s the chance a student in our class prefers Marathi over Hindi?” → Based on survey data.
-
----
+  
+<br>
 
 ### 🎯 Key Concepts
 
@@ -30,7 +30,7 @@ We use probability to make predictions and decisions in real life:
 | **Sample Space** | All possible outcomes                         | {Heads, Tails}         |
 | **Probability**  | Likelihood of an event occurring              | See formula below      |
 
----
+<br>
 
 ### 📐 Probability Formula
 
@@ -43,7 +43,7 @@ Where:
 * $E$ = event
 * $P(E)$ = probability of event $E$
 
----
+<br>
 
 ### 🪙 **Coin Toss Example**
 
@@ -64,7 +64,7 @@ $$
 P(T) = \frac{1}{2} = 0.5
 $$
 
----
+<br>
 
 ### 🎲 **Local Real-Life Examples**
 
@@ -74,14 +74,14 @@ $$
 | Randomly picking a student in uniform                     | Ask: Is it a girl or boy?  | {Girl, Boy}      | Based on class ratio                 |
 | Tossing two coins                                         | (H,H), (H,T), (T,H), (T,T) | 4 outcomes       | $P(\text{both heads}) = \frac{1}{4}$ |
 
----
+<br>
 
 ### ✅ Important Notes
 
 * **Probabilities are always between 0 and 1** (or 0% to 100%)
 * The **sum of probabilities of all outcomes** in a sample space is always **1**
 
----
+<br>
 
 ## 💰 Section 2: Expected Value (EV)
 
@@ -91,7 +91,7 @@ Think of it as:
 
 > “What do I expect **on average** after repeating this experiment a lot?”
 
----
+<br>
 
 ### 📐 Expected Value Formula
 
@@ -101,7 +101,7 @@ $$
 
 You multiply each outcome by its probability and add the results.
 
----
+<br>
 
 ### 🎲 **Example: Rolling a 6-Sided Die**
 
@@ -118,7 +118,7 @@ $$
 
 > ⚠️ You will never actually roll a 3.5, but over hundreds of rolls, **the average** outcome will approach 3.5.
 
----
+<br>
 
 ### 🧑🏽‍🌾 **Local Example: Crop Yield Lottery**
 
@@ -136,7 +136,7 @@ $$
 
 > The **expected value** of the bonus is ₹450.
 
----
+<br>
 
 ### 💡 Why Expected Value Matters
 
@@ -144,7 +144,7 @@ $$
 * Gives you a realistic **long-term outcome**, not a one-time result.
 * It's used in **insurance**, **finance**, **economics**, and **policy making**.
 
-
+<br>
 ## 📊 Section 3: Scatterplots & Correlation
 
 ### 📌 Scatterplots
@@ -159,7 +159,7 @@ A **scatterplot** shows the relationship between two numerical variables.
 
 > Plot points (X, Y) to see the trend or pattern.
 
----
+<br>
 
 ### 📉 Correlation
 
@@ -173,7 +173,7 @@ A **scatterplot** shows the relationship between two numerical variables.
 r = \text{Correlation coefficient} \in [-1, 1]
 \]
 
----
+<br>
 
 ## 🚫 Correlation ≠ Causation
 
@@ -188,7 +188,7 @@ Just because two variables are related doesn’t mean one causes the other.
 
 > Be cautious! Always investigate further before assuming cause and effect.
 
----
+<br>
 
 ## 🧭 Summary Table
 
@@ -201,7 +201,8 @@ Just because two variables are related doesn’t mean one causes the other.
 | **Correlation**       | Measures strength/direction of relationship     |
 | **Causation**         | One variable directly affects another           |
 
----
+
+<br>
 
 ## 💬 Reflect & Discuss
 
@@ -209,10 +210,6 @@ Just because two variables are related doesn’t mean one causes the other.
 - Can you think of examples where **correlation was misunderstood as causation**?
 - How can probability help you make better everyday decisions?
 
----
 
-## 🚀 Coming Up Next:
 
-📘 **Chapter 4: Distributions and Sampling Theory**  
-→ Learn about normal curves, skewness, sampling errors, and more!
 
