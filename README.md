@@ -1,3 +1,7 @@
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
+
+<br>
+
 # 📊 Statistical Thinking for Humanities Scholars 
 
 ###  Nalanda Academy, Wardha 
