@@ -250,7 +250,7 @@ We’ll explore full Bayesian reasoning in a later chapter.
 
 <br>
 
-## 🧭 Coming Up Next:
 
-📉 **Chapter 4: Correlation, Causation, and Scatterplots**  
-Explore how variables relate — and when NOT to jump to conclusions!
+
+📉 **[Next Chapter-  Chapter 4: Sampling Distributions and the Central Limit Theorem](Chapter%204%3A%20Sampling%20Distributions%20and%20the%20Central%20Limit%20Theorem.md)**  
+
