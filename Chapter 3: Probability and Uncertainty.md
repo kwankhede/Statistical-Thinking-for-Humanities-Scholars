@@ -1,3 +1,7 @@
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
+
+<br>
+
 # 🎲 Chapter 3: Probability, Expected Value & Law of Large Numbers
 
 Welcome to **Chapter 3** of *Statistical Thinking for Humanities Scholars*!  
