@@ -39,6 +39,15 @@ Now that we’ve explored how to describe data, we shift to the world of **uncer
   P(4) = \frac{1}{6}
   $$
 
+### 🎮 Try It Yourself: Probability Simulation Web App
+
+Simulate coin tosses, dice rolls, and probability experiments with this interactive app:
+
+👉 [Probability Applet – BFW Stats](https://digitalfirst.bfwpub.com/stats_applet/stats_applet_10_prob.html)
+![Applet Preview](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter2.1.png)
+
+> 🔍 Use this tool to explore the **Law of Large Numbers** and expected values in real time!
+
 ---
 
 ## 🧠 Section 2: The Law of Large Numbers (LLN)
