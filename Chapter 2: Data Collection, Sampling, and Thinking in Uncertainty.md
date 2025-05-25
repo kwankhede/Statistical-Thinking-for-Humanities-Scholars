@@ -448,4 +448,4 @@ Want to simulate coin flips, dice rolls, and more?
 <br>
 <br>
 
-**[Next Chapter : Chapter 2: Data Collection, Sampling, and Thinking in Uncertainty](Chapter%202%3A%20Data%20Collection%2C%20Sampling%2C%20and%20Thinking%20in%20Uncertainty.md)**
+**[Next Chapter : Chapter 3: Probability and Uncertainty](Chapter%203%3A%20Probability%20and%20Uncertainty.md)**
