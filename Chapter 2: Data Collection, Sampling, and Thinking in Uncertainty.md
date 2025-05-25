@@ -1,3 +1,7 @@
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
+
+<br>
+
 # 📋 Chapter 2: Data Collection, Sampling, and Thinking in Uncertainty
 
 Welcome to **Chapter 2** of the *Statistical Thinking for Humanities Scholars* from Nalanda Academy, Wardha!  
