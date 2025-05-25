@@ -130,8 +130,6 @@ $$
 | **Standard Error**       | How much sample means vary; smaller with larger samples       |
 
 ---
-
-## 🚀 What’s Next?
-In **Chapter 5**, we’ll dive into **Hypothesis Testing** to learn how to test ideas with data—like whether your school’s average study time is really different from the national average!
+**[Next Chapter:  Chapter 5: Hypothesis Testing: Making Decisions with Data](Chapter%205%3A%20Hypothesis%20Testing%3A%20Making%20Decisions%20with%20Data.md)**
 
 ---
