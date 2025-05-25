@@ -6,7 +6,7 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 
 ## 🎓 Online Courses
 
-### 📘 [Saylor Academy – Introduction to Statistics](https://learn.saylor.org/course/view.php?id=74)
+### 📘 [Saylor Academy – Introduction to Statistics](https://learn.saylor.org/course/view.php?id=74](https://learn.saylor.org/course/view.php?id=28)
 - Self-paced course with reading materials, quizzes, and a final exam.
 - Includes downloadable PDF and free certificate upon completion.
 
