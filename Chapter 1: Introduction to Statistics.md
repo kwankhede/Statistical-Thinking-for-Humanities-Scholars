@@ -1,3 +1,7 @@
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
+
+<br>
+
 # 📊 Chapter 1: Introduction to Statistics
 
 Welcome to **Chapter 1** of the *Statistical Thinking for Humanities Scholars* course!  
