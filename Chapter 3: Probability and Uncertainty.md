@@ -1,215 +1,143 @@
-# 🎲 Chapter 3: Probability and Uncertainty
+# 🎲 Chapter 3: Probability, Expected Value & Law of Large Numbers
 
-Welcome to **Chapter 3** of *Statistical Thinking for Humanities Scholars*!  
-In this chapter, we explore how **chance**, **uncertainty**, and **patterns** shape our decisions and data interpretation.
+Welcome to **Chapter 3** of *Statistical Thinking for Humanities Scholars*!
+Now that we’ve explored how to describe data, we shift to the world of **uncertainty and prediction**. In this chapter, we explore:
 
-<br>
+* The basics of probability
+* Expected value (EV)
+* Law of Large Numbers (LLN)
+* Bayes' Theorem (intro level)
 
-Here's a more **detailed and student-friendly explanation** of the two sections — **Basics of Probability** and **Expected Value** — with added depth, clarity, local examples, and visual-friendly formatting in Markdown:
-
-<br>
+---
 
 ## 🔢 Section 1: Basics of Probability
 
-**Probability** is the mathematics of **uncertainty** — a way to quantify how likely something is to happen.
-
-We use probability to make predictions and decisions in real life:
-
-* “Will it rain tomorrow?” → Based on weather models.
-* “What’s the chance a student in our class prefers Marathi over Hindi?” → Based on survey data.
-  
-<br>
+**Probability** is the branch of mathematics that deals with measuring uncertainty — what *might* happen.
 
 ### 🎯 Key Concepts
 
-| Term             | Meaning                                       | Example                |
-| ---------------- | --------------------------------------------- | ---------------------- |
-| **Experiment**   | A repeatable action whose result is uncertain | Flipping a coin        |
-| **Outcome**      | A single result of an experiment              | Heads (H) or Tails (T) |
-| **Event**        | A group of outcomes we're interested in       | Getting a Head         |
-| **Sample Space** | All possible outcomes                         | {Heads, Tails}         |
-| **Probability**  | Likelihood of an event occurring              | See formula below      |
+* **Experiment**: A repeatable process (e.g., flipping a coin)
+* **Outcome**: A possible result (e.g., heads or tails)
+* **Event**: One or more outcomes (e.g., getting a head)
+* **Probability of an event**:
 
-<br>
+  $$
+  P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}
+  $$
 
-### 📐 Probability Formula
+### 🪙 Coin Toss Example
 
-$$
-P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
-$$
+* Flip a fair coin → Outcomes: heads (H), tails (T)
+* $P(H) = \frac{1}{2}$
 
-Where:
+### 🎲 Dice Roll Example
 
-* $E$ = event
-* $P(E)$ = probability of event $E$
+* Roll a fair six-sided die: Outcomes = 1, 2, 3, 4, 5, 6
+* Probability of getting a 4:
 
-<br>
+  $$
+  P(4) = \frac{1}{6}
+  $$
 
-### 🪙 **Coin Toss Example**
+---
 
-* Flip a fair coin:
+## 🧠 Section 2: The Law of Large Numbers (LLN)
 
-  * Outcomes: Heads (H), Tails (T)
-  * Total outcomes = 2
+The **Law of Large Numbers** says that as an experiment is repeated many times, the average result gets closer to the **expected probability**.
 
-#### Probability of getting a head:
+### 🔁 Coin Toss Simulation
 
-$$
-P(H) = \frac{1}{2} = 0.5 = 50\%
-$$
+| Tosses | Heads | Tails | Ratio (H\:T) |
+| ------ | ----- | ----- | ------------ |
+| 10     | 6     | 4     | 1.5          |
+| 100    | 52    | 48    | 1.08         |
+| 1000   | 498   | 502   | 0.99         |
 
-#### Probability of getting tails:
+> 🔍 As the number of tosses increases, the outcomes stabilize around 50:50 — this is the **LLN** in action!
 
-$$
-P(T) = \frac{1}{2} = 0.5
-$$
+### 📘 Real-Life Applications
 
-<br>
+* Political polling: more people = more accurate results
+* Weather forecasting: repeated patterns guide future estimates
+* Agriculture: estimating long-term yield from past averages
 
-### 🎲 **Local Real-Life Examples**
+---
 
-| Situation                                                 | Experiment                 | Sample Space     | Probability                          |
-| --------------------------------------------------------- | -------------------------- | ---------------- | ------------------------------------ |
-| Drawing a chit from a jar with 5 Marathi & 3 Hindi labels | Pull one chit              | {Marathi, Hindi} | $P(\text{Marathi}) = \frac{5}{8}$    |
-| Randomly picking a student in uniform                     | Ask: Is it a girl or boy?  | {Girl, Boy}      | Based on class ratio                 |
-| Tossing two coins                                         | (H,H), (H,T), (T,H), (T,T) | 4 outcomes       | $P(\text{both heads}) = \frac{1}{4}$ |
+## 💰 Section 3: Expected Value (EV)
 
-<br>
+**Expected Value** is the average result you'd expect **in the long run**.
 
-### ✅ Important Notes
-
-* **Probabilities are always between 0 and 1** (or 0% to 100%)
-* The **sum of probabilities of all outcomes** in a sample space is always **1**
-
-<br>
-
-## 💰 Section 2: Expected Value (EV)
-
-The **Expected Value (EV)** of a random process is its **long-run average** if the process is repeated many times.
-
-Think of it as:
-
-> “What do I expect **on average** after repeating this experiment a lot?”
-
-<br>
-
-### 📐 Expected Value Formula
+### 🔍 Formula:
 
 $$
 EV = \sum (\text{Value} \times \text{Probability})
 $$
 
-You multiply each outcome by its probability and add the results.
+### 🎲 Dice Example:
 
-<br>
+* Roll a fair die:
 
-### 🎲 **Example: Rolling a 6-Sided Die**
+  $$
+  EV = \frac{1+2+3+4+5+6}{6} = 3.5
+  $$
 
-Outcomes = {1, 2, 3, 4, 5, 6}
-Each has equal chance: $\frac{1}{6}$
+> ⚠️ You’ll never roll a 3.5, but it’s the **average outcome over time**.
 
-$$
-EV = 1 \times \frac{1}{6} + 2 \times \frac{1}{6} + 3 \times \frac{1}{6} + 4 \times \frac{1}{6} + 5 \times \frac{1}{6} + 6 \times \frac{1}{6}
-$$
+### 💵 Lottery Example:
 
-$$
-EV = \frac{1 + 2 + 3 + 4 + 5 + 6}{6} = \frac{21}{6} = 3.5
-$$
+* Win Rs. 100 with $P = 0.01$; lose Rs. 10 with $P = 0.99$
 
-> ⚠️ You will never actually roll a 3.5, but over hundreds of rolls, **the average** outcome will approach 3.5.
+  $$
+  EV = (100 \times 0.01) + (-10 \times 0.99) = 1 - 9.9 = -8.9
+  $$
 
-<br>
+> 📌 This shows the **expected loss** — helps you decide whether a bet is worth it.
 
-### 🧑🏽‍🌾 **Local Example: Crop Yield Lottery**
+---
 
-A cooperative offers the following random bonus to farmers:
+## 🔄 Section 4: Bayes' Theorem (Intuitive Intro)
 
-| Bonus (₹) | Probability |
-| --------- | ----------- |
-| 0         | 0.3         |
-| 500       | 0.5         |
-| 1000      | 0.2         |
+**Bayes' Theorem** helps update probabilities **after seeing new evidence**.
 
-$$
-EV = 0 \times 0.3 + 500 \times 0.5 + 1000 \times 0.2 = 0 + 250 + 200 = ₹450
-$$
+### 🧪 Medical Testing Example:
 
-> The **expected value** of the bonus is ₹450.
+* Disease is rare (1 in 1000)
+* Test is 99% accurate
+* You test positive. What are the chances you really have the disease?
 
-<br>
+> ❗ Intuition says: “99%!” but real probability is much lower — because the disease is rare.
 
-### 💡 Why Expected Value Matters
+This is where **Bayes’ Rule** helps combine:
 
-* Helps you decide whether a **game**, **bet**, or **investment** is worth it.
-* Gives you a realistic **long-term outcome**, not a one-time result.
-* It's used in **insurance**, **finance**, **economics**, and **policy making**.
+* Prior probability (before the test)
+* Likelihood of the test being right
 
-<br>
-## 📊 Section 3: Scatterplots & Correlation
+We’ll explore full calculations in later chapters. For now, remember:
 
-### 📌 Scatterplots
+> **Bayes’ Theorem helps update beliefs when new data appears.**
 
-A **scatterplot** shows the relationship between two numerical variables.
+---
 
-| Variable X        | Variable Y               |
-|-------------------|--------------------------|
-| Rainfall in mm    | Crop yield in kg         |
-| Study hours       | Exam marks               |
-| Daily temperature | Electricity consumption  |
+## 🧩 Think & Reflect
 
-> Plot points (X, Y) to see the trend or pattern.
+* Why does flipping a coin many times give more reliable results?
+* How does EV help in making financial decisions?
+* Can two events be highly correlated but not causally related?
 
-<br>
+---
 
-### 📉 Correlation
+## 📚 Summary Table
 
-**Correlation** measures how strongly two variables are related.
+| Concept                  | Meaning                                       |
+| ------------------------ | --------------------------------------------- |
+| **Probability**          | Chance of an event happening                  |
+| **Expected Value**       | Long-run average outcome                      |
+| **Law of Large Numbers** | Probabilities stabilize with many repetitions |
+| **Bayes' Theorem**       | Updates probability using new evidence        |
 
-- **Positive correlation**: Both increase together
-- **Negative correlation**: One increases, other decreases
-- **No correlation**: No clear pattern
+---
 
-\[
-r = \text{Correlation coefficient} \in [-1, 1]
-\]
+## 🧭 Coming Up Next:
 
-<br>
-
-## 🚫 Correlation ≠ Causation
-
-Just because two variables are related doesn’t mean one causes the other.
-
-### ❗️Example:
-
-| Observation | Correlation? | Real Cause?         |
-|-------------|--------------|---------------------|
-| Ice cream sales and drowning cases | ✅ Yes | 🔥 Summer heat (third factor) |
-| Shoe size and reading ability in kids | ✅ Yes | 📈 Age (not shoes)            |
-
-> Be cautious! Always investigate further before assuming cause and effect.
-
-<br>
-
-## 🧭 Summary Table
-
-| Concept              | Description                                      |
-|----------------------|--------------------------------------------------|
-| **Probability**       | Chance of an event happening                    |
-| **Expected Value**    | Long-run average outcome                        |
-| **Law of Large Numbers** | More data = more accurate average           |
-| **Scatterplot**       | Graph of two variables to show relationship     |
-| **Correlation**       | Measures strength/direction of relationship     |
-| **Causation**         | One variable directly affects another           |
-
-
-<br>
-
-## 💬 Reflect & Discuss
-
-- Have you ever made a decision based on a *small sample*?
-- Can you think of examples where **correlation was misunderstood as causation**?
-- How can probability help you make better everyday decisions?
-
-
-
-
+📈 **Correlation, Causation, and Scatterplots**
+Explore how variables relate and what we can (and can’t) conclude from patterns!
