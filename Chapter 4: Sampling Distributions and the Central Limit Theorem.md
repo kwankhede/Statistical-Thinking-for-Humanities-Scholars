@@ -1,4 +1,3 @@
-
 # 📊 Chapter 4: Sampling Distributions and the Central Limit Theorem
 
 Welcome to **Chapter 4**! 🎉  
@@ -32,15 +31,9 @@ A **sample** is a smaller group you actually study.
 
 > 💡 **Why It Matters**: Studying everyone is tough (and expensive!). Samples give us a shortcut to estimate population values.
 
-**Example**:
-- Want to know how much time *all* high schoolers spend on social media? Survey 50 students and use their average (x̄) to estimate the true average (μ).
-
-**Image 1: Population vs. Sample**
-- **Description**: A colorful diagram with a large circle labeled "Population: All High School Students" (in blue) and a smaller circle inside labeled "Sample: 50 Students" (in green). Arrows connect the two, with labels showing μ (population mean) and x̄ (sample mean). A caption reads, "Samples estimate the population!"
-- **Placement**: Below this section.
-- **Purpose**: Visually clarify the relationship between population and sample.
-
----
+<br>
+<img src="https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter%204.1.png?raw=true" alt="sample vs Population" style="width:50%; display:block; margin:auto;">
+<br>
 
 ## 📈 Section 2: What is a Sampling Distribution?
 
@@ -58,31 +51,10 @@ Imagine you ask 30 students how many hours they play video games per week. Now, 
 - **Description**: A histogram showing the distribution of sample means for gaming hours from 100 samples of 30 students. The x-axis is labeled "Sample Mean Gaming Hours" (0 to 10 hours), and the y-axis is "Frequency." The histogram forms a bell-shaped curve centered around 5 hours.
 - **Placement**: Below the example.
 - **Purpose**: Show how sample means cluster around the population mean in a normal shape.
-- **Chart Code**:
-```chartjs
-{
-  "type": "histogram",
-  "data": {
-    "labels": ["3-3.5", "3.5-4", "4-4.5", "4.5-5", "5-5.5", "5.5-6", "6-6.5"],
-    "datasets": [{
-      "label": "Frequency of Sample Means",
-      "data": [5, 15, 25, 30, 20, 10, 5],
-      "backgroundColor": "#4CAF50",
-      "borderColor": "#388E3C",
-      "borderWidth": 1
-    }]
-  },
-  "options": {
-    "scales": {
-      "x": { "title": { "display": true, "text": "Sample Mean Gaming Hours (hrs/week)" } },
-      "y": { "title": { "display": true, "text": "Frequency" } }
-    },
-    "plugins": { "title": { "display": true, "text": "Sampling Distribution of Gaming Hours" } }
-  }
-}
-```
 
----
+<br>
+<img src="https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter%204.2.png?raw=true" alt="Sampling Distribution Histogram" style="width:50%; display:block; margin:auto;">
+<br>
 
 ## 🧪 Section 3: The Central Limit Theorem (CLT)
 
@@ -99,46 +71,9 @@ If you take **many random samples** of size **n ≥ 30**:
 **Example**:
 - Gaming hours might be skewed (some students play *a lot*, others barely play). But if you take samples of 30 students, the means of those samples will form a bell-shaped curve.
 
-**Image 3: CLT in Action**
-- **Description**: Two side-by-side plots:
-  - Left: A skewed histogram of population gaming hours (peak at 2 hours, long tail to 20 hours), labeled "Population Distribution."
-  - Right: A normal histogram of sample means from many samples (n = 30), centered at 5 hours, labeled "Sampling Distribution."
-- **Placement**: Below the example.
-- **Purpose**: Show how the CLT transforms a skewed population into a normal sampling distribution.
-- **Chart Code**:
-```chartjs
-{
-  "type": "histogram",
-  "data": {
-    "labels": ["0-2", "2-4", "4-6", "6-8", "8-10", "10-12"],
-    "datasets": [
-      {
-        "label": "Population Distribution",
-        "data": [50, 30, 15, 5, 2, 1],
-        "backgroundColor": "#FF9800",
-        "borderColor": "#F57C00",
-        "borderWidth": 1
-      },
-      {
-        "label": "Sampling Distribution (n=30)",
-        "data": [2, 10, 30, 10, 2, 0],
-        "backgroundColor": "#2196F3",
-        "borderColor": "#1976D2",
-        "borderWidth": 1
-      }
-    ]
-  },
-  "options": {
-    "scales": {
-      "x": { "title": { "display": true, "text": "Gaming Hours (hrs/week)" } },
-      "y": { "title": { "display": true, "text": "Frequency" } }
-    },
-    "plugins": { "title": { "display": true, "text": "Population vs. Sampling Distribution" } }
-  }
-}
-```
-
----
+<br>
+<img src="https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/chapter%204.3.png?raw=true" alt="Central Limit Theorem Illustration" style="width:50%; display:block; margin:auto;">
+<br>
 
 ## 📏 Section 4: Standard Error (SE)
 
@@ -161,49 +96,6 @@ $$
   - Sample of 64 students: SE = 4 / √64 = 4 / 8 = 0.5 hours.
 - Larger samples give more *precise* estimates!
 
-**Image 4: Standard Error and Sample Size**
-- **Description**: Three overlapping line graphs showing sampling distributions for different sample sizes (n = 10, 25, 64). The x-axis is "Sample Mean Gaming Hours (hrs/week)," and the y-axis is "Density." The n = 64 curve is narrowest (SE = 0.5), n = 25 is wider (SE = 0.8), and n = 10 is widest (SE = 1.26), all centered at μ = 5 hours.
-- **Placement**: Below the example.
-- **Purpose**: Show how larger samples reduce variability in sample means.
-- **Chart Code**:
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": [3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
-    "datasets": [
-      {
-        "label": "n = 10 (SE = 1.26)",
-        "data": [0.01, 0.05, 0.15, 0.25, 0.30, 0.25, 0.15, 0.05, 0.01],
-        "borderColor": "#FF5722",
-        "fill": false
-      },
-      {
-        "label": "n = 25 (SE = 0.8)",
-        "data": [0.02, 0.08, 0.20, 0.30, 0.35, 0.30, 0.20, 0.08, 0.02],
-        "borderColor": "#4CAF50",
-        "fill": false
-      },
-      {
-        "label": "n = 64 (SE = 0.5)",
-        "data": [0.05, 0.15, 0.25, 0.35, 0.40, 0.35, 0.25, 0.15, 0.05],
-        "borderColor": "#2196F3",
-        "fill": false
-      }
-    ]
-  },
-  "options": {
-    "scales": {
-      "x": { "title": { "display": true, "text": "Sample Mean Gaming Hours (hrs/week)" } },
-      "y": { "title": { "display": true, "text": "Density" } }
-    },
-    "plugins": { "title": { "display": true, "text": "Effect of Sample Size on Standard Error" } }
-  }
-}
-```
-
----
-
 ## 🧩 Try It Out!
 
 **Activity**: Let’s make a sampling distribution!
@@ -220,15 +112,8 @@ $$
 - **Placement**: Below the activity.
 - **Purpose**: Visualize students’ own data to reinforce the concept of sampling distributions.
 
----
+<br>
 
-## 🧠 Think & Reflect
-
-- Why do sample means get closer to the population mean with bigger samples?
-- How does the CLT help explain why polls (like for favorite apps) are usually reliable?
-- Can you think of a time when a small sample might give a bad estimate? (Hint: Think about asking only your friends about music preferences.)
-
----
 
 ## 📚 Summary Table
 
@@ -246,17 +131,3 @@ $$
 In **Chapter 5**, we’ll dive into **Hypothesis Testing** to learn how to test ideas with data—like whether your school’s average study time is really different from the national average!
 
 ---
-
-**Improvements Made**:
-- **Language**: Simplified terms (e.g., “bounce around” for variability) and used relatable examples (TikTok, gaming).
-- **Visuals**: Replaced external links with Chart.js code for consistent, customizable histograms and line graphs. Added detailed image descriptions for clarity.
-- **Engagement**: Added a hands-on activity with a dot plot and reflective questions tied to real-world scenarios.
-- **Formatting**: Used emojis, bold headings, and consistent bullet points for readability. Added spacing for clarity.
-- **Relevance**: Focused on student-centric examples (social media, gaming) to maintain interest.
-
-**Teaching Tips**:
-- **Create Visuals**: Use the provided Chart.js code in a tool like Chart.js or export to images via Canva for slides/handouts.
-- **Classroom Activity**: Have students physically plot their sample means on a whiteboard for Image 5 to make it interactive.
-- **Accessibility**: Ensure visuals use high-contrast colors (e.g., blue, green, orange) for visibility in both light and dark themes.
-
-Let me know if you want further tweaks, specific image generation instructions, or additional activities for this chapter!
