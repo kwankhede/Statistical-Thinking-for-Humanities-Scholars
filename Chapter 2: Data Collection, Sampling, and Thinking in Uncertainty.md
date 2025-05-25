@@ -1,6 +1,6 @@
 # 📋 Chapter 2: Data Collection, Sampling, and Thinking in Uncertainty
 
-Welcome to **Chapter 2** of the *Statistical Thinking for Humanities Scholars* course!  
+Welcome to **Chapter 2** of the *Statistical Thinking for Humanities Scholars* from Nalanda Academy, Wardha!  
 In this chapter, we explore how to **collect data properly**, understand **samples and populations**, avoid **bias**, and start thinking about **uncertainty and probability**.
 
 <br>
@@ -36,8 +36,10 @@ In this chapter, we explore how to **collect data properly**, understand **sampl
 - Surveying students only from English-medium schools.
 - Ignoring remote tribal villages in Melghat in health data.
 
+<br>
+<br>
 
-### 🧠 Measures of Center
+## 🧠 Measures of Center
 
 Measures of center help us identify a “typical” or “representative” value in a dataset — something that gives us a sense of what is *usual*.
 
