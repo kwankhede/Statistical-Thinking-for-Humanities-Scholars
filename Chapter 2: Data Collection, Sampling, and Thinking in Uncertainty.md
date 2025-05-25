@@ -445,6 +445,7 @@ Want to simulate coin flips, dice rolls, and more?
 | **Frequency**            | Repetition of values          | Foundational for probability and summaries  |
 | **Law of Large Numbers** | Big samples are more accurate | Crucial for reliable generalizations        |
 
+<br>
+<br>
 
-
-
+**[Next Chapter : Chapter 2: Data Collection, Sampling, and Thinking in Uncertainty](Chapter%202%3A%20Data%20Collection%2C%20Sampling%2C%20and%20Thinking%20in%20Uncertainty.md)**
