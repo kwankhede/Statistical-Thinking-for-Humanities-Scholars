@@ -1,6 +1,5 @@
-Got it! Here's your chapter content with added **Z-score table links** and **software/calculator resources** for finding p-values and critical values in hypothesis testing:
+![banner](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/media/banner.png)
 
----
 
 # 📊 Chapter 5: Hypothesis Testing: Making Decisions with Data
 
@@ -8,19 +7,8 @@ Welcome to **Chapter 5**! 🎉
 In this chapter, we will learn how to use **hypothesis testing** to make decisions or draw conclusions about a population based on sample data. Hypothesis testing helps us answer questions like:
 *Is the average study time really different from 5 hours?* or *Does a new teaching method improve test scores?*
 
----
+<br>
 
-## 🎯 Objective
-
-By the end of this chapter, you’ll be able to:
-
-* Understand what hypothesis testing is and why it’s useful.
-* Follow the key steps involved in hypothesis testing.
-* Calculate test statistics and interpret p-values.
-* Recognize types of errors in hypothesis testing.
-* Perform a simple one-sample z-test for means.
-
----
 
 ## 🧠 What is Hypothesis Testing?
 
@@ -35,7 +23,7 @@ Hypothesis testing is a **statistical method** to evaluate a claim or assumption
 
 We want to check if the true average study time, $\mu$, is 5 hours or something else.
 
----
+<br>
 
 ## 📝 Steps of Hypothesis Testing
 
@@ -53,14 +41,14 @@ We want to check if the true average study time, $\mu$, is 5 hours or something 
 >
 > * $H_1$ can be two-sided ($\neq$) or one-sided ($<$ or $>$) depending on the question.
 
----
+<br>
 
 ### 2. Set Significance Level ($\alpha$)
 
 * This is the **threshold probability** for deciding if results are “unlikely enough” to reject $H_0$.
 * Commonly used value: $\alpha = 0.05$ (5% risk of rejecting a true null hypothesis).
 
----
+<br>
 
 ### 3. Collect Data and Calculate Test Statistic
 
@@ -92,7 +80,7 @@ $$
 z = \frac{5.5 - 5}{1.2 / \sqrt{36}} = \frac{0.5}{1.2 / 6} = \frac{0.5}{0.2} = 2.5
 $$
 
----
+<br>
 
 ### 4. Calculate P-value
 
@@ -107,7 +95,7 @@ For $z = 2.5$:
   p = 2 \times P(Z > 2.5) \approx 2 \times 0.0062 = 0.0124
   $$
 
----
+<br>
 
 ### 5. Make a Conclusion
 
@@ -119,7 +107,7 @@ For $z = 2.5$:
 * $p = 0.0124 < 0.05$ → Reject $H_0$
 * Conclusion: The average study time is statistically significantly different from 5 hours.
 
----
+<br>
 
 ## ⚠️ Types of Errors in Hypothesis Testing
 
@@ -131,7 +119,7 @@ For $z = 2.5$:
 * $\alpha$ controls the probability of a **Type I error**.
 * Reducing Type I errors can increase Type II errors, so balance is important.
 
----
+<br>
 
 ## 🔍 One-Sample Z-Test Summary
 
@@ -148,7 +136,7 @@ Test if the average student sleep time differs from 7 hours:
 * $H_1: \mu \neq 7$ hours
 * Collect sample data, calculate z-score, find p-value, then conclude.
 
----
+<br>
 
 ## 📈 Useful Resources for Z-Tables and Calculations
 
@@ -171,7 +159,7 @@ Test if the average student sleep time differs from 7 hours:
 
 
 
----
+<br>
 
 ## 📚 Summary Table
 
@@ -184,12 +172,6 @@ Test if the average student sleep time differs from 7 hours:
 | **Make Conclusion**          | Reject or fail to reject $H_0$ based on p-value     |
 | **Recognize Errors**         | Know Type I and Type II error risks                 |
 
----
+<br>
 
-## 🚀 What’s Next?
 
-In **Chapter 6**, we will explore **Confidence Intervals**—a way to estimate the range of plausible values for population parameters using sample data!
-
----
-
-If you want, I can also create practice problems, example calculations in code, or visual diagrams for this chapter! Just let me know.
