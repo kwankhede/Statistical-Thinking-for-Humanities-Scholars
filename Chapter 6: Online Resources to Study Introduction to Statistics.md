@@ -2,7 +2,7 @@
 
 Whether you're a beginner or refreshing your knowledge, this curated list includes high-quality **free resources** for learning **Introduction to Statistics**, including courses, books, videos (including Hindi content), and exercises.
 
----
+
 
 ## 🎓 Online Courses
 
@@ -15,7 +15,7 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 - Covers descriptive stats, probability, distributions, and more.
 - Includes video explanations, practice problems, and mastery quizzes.
 
----
+
 
 ## 🎥 YouTube Channels (English & Hindi)
 
@@ -28,7 +28,7 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 - Highly engaging and visual.
 - Good for conceptual understanding.
 
----
+
 
 ## 📚 Free Books (PDF/eBook)
 
@@ -40,7 +40,7 @@ Whether you're a beginner or refreshing your knowledge, this curated list includ
 - Free online and PDF versions.
 - Includes exercises with solutions.
 
----
+
 
 ## 🧩 Practice Platforms
 
