@@ -1,4 +1,4 @@
-# 🌐 Best Online Resources to Study Introduction to Statistics
+# 🌐 Online Resources to Study Introduction to Statistics
 
 Whether you're a beginner or refreshing your knowledge, this curated list includes high-quality **free resources** for learning **Introduction to Statistics**, including courses, books, videos (including Hindi content), and exercises.
 
