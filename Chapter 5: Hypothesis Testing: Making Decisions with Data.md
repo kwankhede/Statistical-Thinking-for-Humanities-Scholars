@@ -175,3 +175,4 @@ Test if the average student sleep time differs from 7 hours:
 <br>
 
 
+**[Next : Online Resources to Study Introduction to Statistics](https://github.com/kwankhede/Statistical-Thinking-for-Humanities-Scholars/blob/main/Chapter%206%3A%20Online%20Resources%20to%20Study%20Introduction%20to%20Statistics.md)**
